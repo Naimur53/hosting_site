@@ -1,13 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@layer components {
+  .img-fluid{
+    @apply w-full h-auto
+  }
+  .input{
+    @apply bg-white border border-gray-300 text-input text-xs rounded-[6px] block w-full px-2 py-3  outline outline-transparent
+    placeholder:text-placeholder mb-116 font-poppins  
+
+  }
+  .input:focus{
+    @apply   outline-[4px] outline-[#91C0FF] shadow-input border-[#1F74E5]  
+  }
+  .label{
+    @apply text-label mb-[9px] block font-poppins text-xs
+  }
+  .submit{
+    @apply bg-[#0067FF] text-white uppercase block w-full px-2 py-3 cursor-pointer
+  }
 }
