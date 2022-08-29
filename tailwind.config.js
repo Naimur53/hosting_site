@@ -45,7 +45,8 @@ module.exports = {
         'input': '#1B1E24',
         'endText': '#778CA2',
         'placeholder': '#98A9BC',
-        'black': "#172228"
+        'black': "#172228",
+        'banner': '#08192D'
       },
       fontFamily: {
         'inter': ['"Inter"', 'sans-serif'],
@@ -53,6 +54,7 @@ module.exports = {
       },
       fontSize: {
         'xs': ['14px', { lineHeight: '20px', }],
+        'ls': ['16px', { lineHeight: '22px', }],
         'sm': ['18px', { lineHeight: '24px', }],
         'normal': ['24px', { lineHeight: '32px', }],
         'base': ['32px', { lineHeight: '40px', }],
@@ -75,6 +77,7 @@ module.exports = {
         '115': '15px',
         '116': '16px',
         '120': '20px',
+        '136': '36px',
         '138': '38px',
         '148': '48px',
       }

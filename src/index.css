@@ -30,4 +30,14 @@ code {
   .submit{
     @apply bg-[#0067FF] text-white uppercase block w-full px-2 py-3 cursor-pointer
   }
+  .btn{
+    @apply inline-block py-116 px-136 rounded-full text-xs font-medium	
+  }
+  .heading{
+    @apply mt-5 text-neutral-700 md:mt-0 text-lg md:text-base  font-bold
+  }
+  .content-text{
+    @apply mt-120 mb-148   font-normal text-[16px]
+  }
+
 }
