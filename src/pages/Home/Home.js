@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeBanner from './SmallCompo/HomeBanner/HomeBanner';
+import HostingPackage from './SmallCompo/HostingPackage/HostingPackage';
 import MenCall from './SmallCompo/MenCall/MenCall';
 import Solution from './SmallCompo/Solution/Solution';
 import StarSection from './SmallCompo/StarSection/StarSection';
@@ -13,6 +14,7 @@ const Home = () => {
             <StarSection></StarSection>
             <Solution></Solution>
             <MenCall></MenCall>
+            <HostingPackage></HostingPackage>
 
         </div>
     );
