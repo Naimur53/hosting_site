@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-@layer components {
+@layer utilities {
   .img-fluid{
     @apply w-full h-auto
   }
@@ -34,10 +34,25 @@ code {
     @apply inline-block py-116 px-136 rounded-full text-xs font-medium	
   }
   .heading{
-    @apply mt-5 text-neutral-700 md:mt-0 text-normal md:text-base  font-bold 
+    @apply mt-5   md:mt-0 text-normal md:text-base  font-bold 
   }
   .content-text{
     @apply mt-120 mb-148   font-normal text-[16px]
   }
+  .acrodian-header{
+    @apply text-[#101828] py-5  mt-5 text-sm md:text-base
+  }
+  .table-heading{
+    @apply text-ls text-neutral-800 font-semibold
+  }
+  
+  .table-row-heading{
+    @apply text-neutral-700 font-bold text-ls 
+
+  } 
+  td{
+    @apply py-4 text-neutral-700 font-normal text-ls  
+  }
+
 
 }

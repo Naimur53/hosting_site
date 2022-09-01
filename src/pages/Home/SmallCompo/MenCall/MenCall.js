@@ -4,9 +4,9 @@ const MenCall = () => {
     return (
         <div className='pt-[100px] grid grid-cols-1 md:grid-cols-2 gap-0  '>
             <div className='px-1  md:px-20'>
-                <div className='relative md:bg-cover bg-left-bottom bg-no-repeat' style={{ backgroundImage: "url(/shape/blue-bol.png)" }}>
+                <div className='relative   bg-left-bottom bg-no-repeat' style={{ backgroundImage: "url(/shape/blue-bol.png)" }}>
 
-                    <img className='md:ml-10' src="/images/men-smile.png" alt="men" />
+                    <img className='ml-0 md:ml-10' src="/images/men-smile.png" alt="men" />
                     <div className='absolute bottom-[50px] left-1/3 -rotate-[17deg]'>
                         <a href="tel:123-456-7890" className=' flex justify-center items-center py-2 rounded-md px-2 md:px-12 bg-seen-blue text-white rounded-0 '>
                             <img className='w-[46px]' src="/icons/phone.png" alt="phone" /> <span className='ml-4'>(123) 234 - 5678</span>

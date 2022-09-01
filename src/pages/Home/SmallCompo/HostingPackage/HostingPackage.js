@@ -10,7 +10,7 @@ const HostingPackage = () => {
 
     }
     return (
-        <div style={{ backgroundImage: 'url(/shape/Line4.png)' }} className='min-h-screen relative bg-cover bg-no-repeat pb-10  bg-banner'>
+        <div style={{ backgroundImage: 'url(/shape/Line4.png)' }} className=' relative bg-cover overflow-hidden bg-no-repeat pb-10  bg-banner'>
 
             <div className='text-center pt-[80px] text-white '>
                 <h1 className='text-base mb-118  font-semibold md:font-lg '>Choose your hosting package</h1>
@@ -56,7 +56,7 @@ const HostingPackage = () => {
 
 
             {/* background blur effect  */}
-            <div className="absolute z-10 left-1/2 top-[500px]">
+            <div className="absolute   left-1/2 top-[500px]">
                 <div className='bg-[#07E1BA] absolute rotate-[14deg] blur-[200px] h-[150px] w-[100px] md:w-[640px] -translate-x-1/2'>
 
                 </div>

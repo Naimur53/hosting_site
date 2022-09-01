@@ -14,6 +14,7 @@ const HomeBanner = () => {
                                 <a href='#' className='btn bg-seen-blue text-white mr-116'>See plans</a>
                                 <a href='#' className='btn bg-white text-black mt-5 md:mt-0'>Try a free demo</a>
                             </div>
+                            <p className='mt-4 text-neutral-400'>30 day money back guarantee</p>
                         </div>
                     </div>
 

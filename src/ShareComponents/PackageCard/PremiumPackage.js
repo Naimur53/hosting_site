@@ -196,7 +196,7 @@ const PremiumPackage = () => {
                 <div className='flex justify-center border-t py-116 border-gray-300 items-center mt-120'>
                     <h4>See all features</h4>
 
-                    <img className='ml-2' src="/icons/keyboard_arrow_down.png" alt="" />
+                    <img className='ml-2' src="/icons/keyboard_arrow_down_dark.png" alt="" />
                 </div>
 
 

@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+module.exports = withMT({
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -26,6 +28,7 @@ module.exports = {
           500: '#858D98',
           600: '#4B4E56',
           700: '#161819',
+          800: '#08192D',
         },
         "dark-blue": '#0D55AB',
         "main-blue": '#0074FF',
@@ -78,6 +81,7 @@ module.exports = {
         '116': '16px',
         '118': '18px',
         '120': '20px',
+        '130': '30px',
         '136': '36px',
         '138': '38px',
         '148': '48px',
@@ -86,4 +90,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+})
