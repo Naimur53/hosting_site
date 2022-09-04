@@ -9,7 +9,7 @@ const EasyStep = () => {
                         <h2 className='text-base  pt-[45px] font-semibold mb-116'>Easy steps for transfer domain </h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been thdustry's standard dummy text.
                             over wordpress hosting </p>
-                        <div className='mt-5 pb-[73px] flex flex-col gap-[24px] '>
+                        <div className='mt-5 md:pb-[73px] flex flex-col gap-[24px] '>
                             <div  >
                                 <img src="/shape/check.png" className='inline-block' alt="check" />
                                 <span className='ml-[10px]'>Enter the domain name you want to transfer</span></div>
@@ -27,7 +27,7 @@ const EasyStep = () => {
                         </div>
                     </div>
                     <div>
-                        <img className='pt-[49px] pb-[77px]' src="/images/box4.png" alt="box" />
+                        <img className='md:pt-[49px] pb-[77px]' src="/images/box4.png" alt="box" />
                     </div>
 
                 </div>
