@@ -7,12 +7,12 @@ const Recommendation = () => {
             <div className='min-h-screen relative bg-cover overflow-hidden bg-no-repeat pb-10 text-white bg-banner'>
 
                 <div className='text-center px-2 pt-[80px] text-neutral-300 '>
-                    <h1 className='text-normal md:text-base mb-118  font-semibold md:font-lg '>Our recommendations</h1>
+                    <h1 className='text-normal md:text-lg   font-semibold '>Our recommendations</h1>
                 </div>
 
 
-                <div className='container mt-10'>
-                    <div className="block md:flex justify-center">
+                <div className='container mt-[62px]'>
+                    <div className="block relative z-20 md:flex justify-center">
                         <RecomCard dollar='4.18'></RecomCard>
                         <RecomCard dollar='8.016'></RecomCard>
                     </div>

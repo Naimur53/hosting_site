@@ -24,16 +24,16 @@ const HostingBanner = () => {
         },
     ]
     return (
-        <div style={{ backgroundImage: 'url(/shape/Line4.png)' }} className='min-h-screen bg-cover bg-no-repeat overflow-hidden '>
+        <div style={{ backgroundImage: 'url(/shape/Line4.png)' }} className=' bg-cover bg-no-repeat overflow-hidden '>
             <div className="container">
                 <div>
-                    <h1 className='mt-10 md:mt-[75px] text-lg md:text-2xl   text-center font-bold'>Hosting companies
+                    <h1 className='mt-[75px] text-lg md:text-2xl   text-center font-bold'>Hosting companies
                         <br />
                         Interested in doing business with you</h1>
-                    <p className='text-center  mt-120 mb-148 Hosting companies
+                    <p className='text-center  mt-[19px] mb-[82px] Hosting companies
 Interested in doing business with you font-normal text-[16px]'>Don't just take our word for it. We're the web hosting provider of <br /> choice for thousands of happy customers.</p>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[47px] pb-[134px]'>
 
                     {
 

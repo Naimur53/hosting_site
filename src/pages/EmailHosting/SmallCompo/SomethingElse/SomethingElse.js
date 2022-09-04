@@ -27,9 +27,9 @@ const SomethingElse = () => {
         },
     ]
     return (
-        <div className='my-20'>
+        <div className='mt-[181px]'>
             <h2 className='heading text-center'>Are you Looking For Something Else?</h2>
-            <div className='mt-150'>
+            <div className='mt-[52px]'>
                 <Swiper
                     spaceBetween={20}
                     slidesPerView={4}
@@ -45,7 +45,7 @@ const SomethingElse = () => {
                         },
                         // when window width is >= 768px
                         768: {
-                            slidesPerView: 3,
+                            slidesPerView: 4,
                         },
                     }}
                     grabCursor={true}

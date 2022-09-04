@@ -2,8 +2,8 @@ import React from 'react';
 
 const BusinessCard = () => {
     return (
-        <div className='border w-full relative  px-[30px] border-[#64788E] rounded-[8px] bg-[#172535] text-white text-center font-inter'>
-            <div className='py-136 border-b border-gray-800 pb-150 mb-[40px]'>
+        <div className='border w-full relative  px-[32px] border-[#64788E] rounded-[8px] bg-[#172535] text-white text-center font-inter'>
+            <div className='pt-136 pb-[38px] border-b border-gray-800  mb-[40px]'>
 
                 <h2 className='text-sm font-semibold mb-150'>Business </h2>
 
@@ -17,7 +17,7 @@ const BusinessCard = () => {
                     <sub className='text-ls text-neutral-400'>/mo</sub>
                     <h6 className='text-center'>price per mailbox</h6>
                 </div>
-                <button className='text-white  bg-dark-blue py-[15px] font-light text-sm  rounded-3xl  block w-full'>Select</button>
+                <button className='text-white relative z-10 btn bg-dark-blue py-[15px] font-light text-sm  rounded-3xl  block w-full'>Select</button>
                 <p className='mt-118'>$3.99/mo when you renew</p>
             </div>
 
@@ -27,7 +27,7 @@ const BusinessCard = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/right.png" alt="" />
 
-                        <span className='font-normal ml-2'> 30 GB Email storage
+                        <span className='font-normal ml-2'>30 GB Email storage
                         </span>
                     </p>
                 </div >
@@ -35,7 +35,7 @@ const BusinessCard = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/right.png" alt="" />
 
-                        <span className='font-normal ml-2'> Read Receips
+                        <span className='font-normal ml-2'>Read Receips
                         </span>
                     </p>
                 </div >
@@ -43,7 +43,7 @@ const BusinessCard = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/right.png" alt="" />
 
-                        <span className='font-normal ml-2'> Email Templates
+                        <span className='font-normal ml-2'>Email Templates
                         </span>
                     </p>
                 </div >
@@ -51,7 +51,7 @@ const BusinessCard = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/right.png" alt="" />
 
-                        <span className='font-normal ml-2'> Follow-up Reminders
+                        <span className='font-normal ml-2'>Follow-up Reminders
                         </span>
                     </p>
                 </div >
@@ -59,7 +59,7 @@ const BusinessCard = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/right.png" alt="" />
 
-                        <span className='font-normal ml-2'> Multi-account support
+                        <span className='font-normal ml-2'>Multi-account support
                         </span>
                     </p>
                 </div >
@@ -67,7 +67,7 @@ const BusinessCard = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/right.png" alt="" />
 
-                        <span className='font-normal ml-2'> 10 email aliases
+                        <span className='font-normal ml-2'>10 email aliases
                         </span>
                     </p>
                 </div >
@@ -75,15 +75,16 @@ const BusinessCard = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/right.png" alt="" />
 
-                        <span className='font-normal ml-2'> Send as Alias
+                        <span className='font-normal ml-2'>Send as Alias
                         </span>
                     </p>
                 </div >
-                <div className='mb-2'>
-                    <p className='font-bold'>
-                        <img className='inline-block mr-2' src="/icons/right.png" alt="" />
+                <div className='mb-2 flex justify-center items-center' >
+                    <img className='inline-block mr-2 ' src="/icons/right.png" alt="" />
+                    <p className='font-bold ml-2'>
 
-                        <span className='font-normal ml-2'> One-click import of existing
+
+                        <span className='font-normal '>One-click import of existing
                             emails and contacts
                         </span>
                     </p>
@@ -92,11 +93,11 @@ const BusinessCard = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/right.png" alt="" />
 
-                        <span className='font-normal ml-2'> Inbuilt colendar and contacts
+                        <span className='font-normal ml-2'>Inbuilt colendar and contacts
                         </span>
                     </p>
                 </div >
-                <div className='flex justify-center border-t py-116 border-gray-800 items-center mt-150'>
+                <div className='flex justify-center border-t py-116 border-gray-800 items-center mt-[41px]'>
                     <h4>See all features</h4>
 
                     <img className='ml-2' src="/icons/keyboard_arrow_down.png" alt="" />

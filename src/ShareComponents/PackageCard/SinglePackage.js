@@ -25,21 +25,21 @@ const SinglePackage = () => {
                 <div className='mb-2'>
                     <p className='font-bold'>
                         1
-                        <span className='font-normal ml-2'> website
+                        <span className='font-normal ml-2 text-neutral-100'> website
                         </span>
                     </p>
                 </div>
                 <div className='mb-2'>
                     <p className='font-bold'>
                         50 GB
-                        <span className='font-normal ml-2'> SSD Storage
+                        <span className='font-normal ml-2 text-neutral-100'> SSD Storage
                         </span>
                     </p>
                 </div>
                 <div className='mb-2'>
                     <p className='font-bold'>
                         ~10 000
-                        <span className='font-normal ml-2'> Visits Monthly
+                        <span className='font-normal ml-2 text-neutral-100'> Visits Monthly
                         </span>
                         <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
                     </p>
@@ -47,7 +47,7 @@ const SinglePackage = () => {
                 <div className='mb-2'>
                     <p className='font-bold'>
                         1
-                        <span className='font-normal ml-2'> Email Account
+                        <span className='font-normal ml-2 text-neutral-100'> Email Account
                         </span>
                         <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
                     </p>
@@ -55,7 +55,7 @@ const SinglePackage = () => {
                 <div className='mb-2'>
                     <p className='font-bold'>
                         100 GB
-                        <span className='font-normal ml-2'> Bandwidth
+                        <span className='font-normal ml-2 text-neutral-100'> Bandwidth
                         </span>
                         <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
                     </p>
@@ -63,7 +63,7 @@ const SinglePackage = () => {
                 <div className='mb-2'>
                     <p className='font-bold'>
                         2
-                        <span className='font-normal ml-2'> Databases
+                        <span className='font-normal ml-2 text-neutral-100'> Databases
                         </span>
                         <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
                     </p>
@@ -76,7 +76,7 @@ const SinglePackage = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/right.png" alt="" />
                         Unlimited
-                        <span className='font-normal ml-2'> Free SSL
+                        <span className='font-normal ml-2 text-neutral-100'> Free SSL
                         </span>
                         <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
                     </p>
@@ -85,7 +85,7 @@ const SinglePackage = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/right.png" alt="" />
                         Cloudflare
-                        <span className='font-normal ml-2'> Protected
+                        <span className='font-normal ml-2 text-neutral-100'> Protected
                             <br />
                             Nameservers
                         </span>
@@ -96,7 +96,7 @@ const SinglePackage = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/wrong.png" alt="" />
                         Cloudflare
-                        <span className='font-normal ml-2'> CDN ($9.95 value)
+                        <span className='font-normal ml-2 text-neutral-100'> CDN ($9.95 value)
                         </span>
                         <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
                     </p>
@@ -117,7 +117,7 @@ const SinglePackage = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/wrong.png" alt="" />
                         Free
-                        <span className='font-normal ml-2'> Domain ($8.99 value)
+                        <span className='font-normal ml-2 text-neutral-100'> Domain ($8.99 value)
                         </span>
                         <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
                     </p>
@@ -133,7 +133,7 @@ const SinglePackage = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/right.png" alt="" />
                         Managed
-                        <span className='font-normal ml-2'> WordPress
+                        <span className='font-normal ml-2 text-neutral-100'> WordPress
                         </span>
                         <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
                     </p>
@@ -142,7 +142,7 @@ const SinglePackage = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/wrong.png" alt="" />
                         WordPress
-                        <span className='font-normal ml-2'> Acceleration
+                        <span className='font-normal ml-2 text-neutral-100'> Acceleration
                         </span>
                         <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
                     </p>
@@ -164,7 +164,7 @@ const SinglePackage = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/right.png" alt="" />
                         30 Days
-                        <span className='font-normal ml-2'> Money Back <br />Guarantee
+                        <span className='font-normal ml-2 text-neutral-100'> Money Back <br />Guarantee
                         </span>
                         <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
                     </p>
@@ -173,7 +173,7 @@ const SinglePackage = () => {
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/right.png" alt="" />
                         24/7/365
-                        <span className='font-normal ml-2'> Support
+                        <span className='font-normal ml-2 text-neutral-100'> Support
                         </span>
                         <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
                     </p>

@@ -26,7 +26,7 @@ const PremiumPackage = () => {
                     <p className='mt-118'>$6.99/mo when you renew</p>
                 </div>
                 <div className='text-left'>
-                    <h1 className='text-ls mb-120 text-neutral-100'>Top feature comparison</h1>
+                    <h1 className='text-ls mb-120  text-neutral-800 font-semibold'>Top feature comparison</h1>
                     <div className='mb-2'>
                         <p className='font-bold'>
                             100
@@ -76,7 +76,7 @@ const PremiumPackage = () => {
 
                 </div>
                 <div className='text-left'>
-                    <h1 className='text-ls mt-136 mb-120 text-neutral-100'>Security</h1>
+                    <h1 className='text-ls mt-136 mb-120  text-neutral-800 font-semibold'>Security</h1>
                     <div className='mb-2'>
                         <p className='font-bold'>
                             <img className='inline-block mr-2' src="/icons/right.png" alt="" />
@@ -109,7 +109,7 @@ const PremiumPackage = () => {
 
                 </div>
                 <div className='text-left'>
-                    <h1 className='text-ls mt-136 mb-120 text-neutral-100'>Free Bonuses</h1>
+                    <h1 className='text-ls mt-136 mb-120  text-neutral-800 font-semibold'>Free Bonuses</h1>
 
                     <div className='mb-2'>
                         <p className='font-bold'>
@@ -129,7 +129,7 @@ const PremiumPackage = () => {
                     </div >
                 </div>
                 <div className='text-left'>
-                    <h1 className='text-ls mt-136 mb-120 text-neutral-100'>WordPress Options</h1>
+                    <h1 className='text-ls mt-136 mb-120  text-neutral-800 font-semibold'>WordPress Options</h1>
 
                     <div className='mb-2'>
                         <p className='font-bold'>
@@ -160,7 +160,7 @@ const PremiumPackage = () => {
 
                 </div>
                 <div className='text-left'>
-                    <h1 className='text-ls mt-136 mb-120 text-neutral-100'>Service and Support</h1>
+                    <h1 className='text-ls mt-136 mb-120  text-neutral-800 font-semibold'>Service and Support</h1>
 
                     <div className='mb-2'>
                         <p className='font-bold'>

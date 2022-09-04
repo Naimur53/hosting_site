@@ -11,9 +11,11 @@ import TrustCompany from './SmallCompo/TrustCompany/TrustCompany';
 import Faq from './SmallCompo/Faq/Faq';
 import RandomSection from './SmallCompo/RandomSection/RandomSection'
 import LocationMapSection from '../../ShareComponents/LocationMapSection/LocationMapSection'
+import TopBar from '../../ShareComponents/TopBar/TopBar';
 const Home = () => {
     return (
         <div>
+            <TopBar></TopBar>
             <HomeBanner></HomeBanner>
             <TrustCompany></TrustCompany>
             <StarSection></StarSection>

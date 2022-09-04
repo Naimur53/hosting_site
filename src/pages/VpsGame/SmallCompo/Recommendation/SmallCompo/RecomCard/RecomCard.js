@@ -3,11 +3,11 @@ import React from 'react';
 const RecomCard = ({ dollar, }) => {
     return (
         <div className='px-4'>
-            <div className='border mt-5 md:mt-0  border-[#64788E] rounded-[8px] bg-[#172535] relative mb-10    text-center font-inter'>
-                <div className='text-white text-xs bg-dark-bright-blue w-full uppercase px-3 font-light py-3 rounded '>
+            <div className='border mt-5 md:mt-0  border-[#64788E] border-t-0 rounded-[8px] bg-[#172535] relative mb-10    text-center font-inter'>
+                <div className='text-white text-xs bg-dark-bright-blue rounded-bl-none rounded-br-none w-full uppercase px-3 font-light py-3 rounded '>
                     Special deals
                 </div>
-                <div className=' px-[30px]'>
+                <div className=' px-[64px]'>
 
                     <div className='py-136'>
 

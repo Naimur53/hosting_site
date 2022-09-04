@@ -4,17 +4,17 @@ const EmailBanner = () => {
     return (
         <div>
             <div>
-                <div style={{ backgroundImage: 'url(/shape/Line4.png)' }} className='min-h-screen relative flex items-center bg-cover bg-no-repeat overflow-hidden '>
+                <div style={{ backgroundImage: 'url(/shape/Line4.png)' }} className=' relative flex items-center bg-cover bg-no-repeat overflow-hidden '>
                     <div className="container">
                         <div>
-                            <h1 className='mt-20  text-lg md:text-2xl   text-center font-bold'> Business Email Hosting</h1>
-                            <p className='text-center  mt-120 mb-148 Hosting companies Interested in doing business with you font-normal text-[16px]'>Make moves a free domain and SSL included with a yearly <br /> susbscription.</p>
-                            <div className='text-center'>
+                            <h1 className='pt-[88px]  text-lg md:text-2xl   text-center font-bold'> Business Email Hosting</h1>
+                            <p className='text-center  mt-[15px] mb-[27px] Hosting companies Interested in doing business with you font-normal text-[16px] text-neutral-600                   '>Make moves a free domain and SSL included with a yearly <br /> susbscription.</p>
+                            <div className='text-center relative z-10 font-poppins'>
 
                                 <a href='#' className='btn bg-seen-blue text-white mr-116'>Start Now</a>
                                 <a href='#' className='btn relative z-10 bg-white text-black mt-5 md:mt-0'>Try a free demo</a>
                             </div>
-                            <div className='mt-5 relative flex justify-center z-10'>
+                            <div className='mt-[50px] relative flex justify-center z-10'>
                                 <img src="/images/EMail-Service.png" alt="web" />
                             </div>
                         </div>

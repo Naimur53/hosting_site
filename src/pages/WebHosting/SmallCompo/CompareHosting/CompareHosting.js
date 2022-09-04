@@ -2,25 +2,25 @@ import React from 'react';
 
 const CompareHosting = () => {
     return (
-        <div className='container my-[60px]'>
-            <h1 className='text-base font-semibold text-center md:text-2xl mb-[60px]'>Compare All Web Hosting Plans</h1>
+        <div className='container mt-[148px] mb-[118px]'>
+            <h1 className='text-base font-semibold text-center md:text-xl mb-[63px]'>Compare All Web Hosting Plans</h1>
 
-            <div className='border border-gray-300 rounded-md p-4 px-10'>
+            <div className='border border-gray-300 rounded-md p-4 px-10 md:w-full md:overflow-hidden overflow-x-scroll w-[360px]'>
 
                 <table className='text-left w-full'>
                     <tr className='border-b border-gray-300  '>
                         <th className='text-normal font-semibold pb-5'>Plan Features</th>
-                        <th className=' pb-5'>
+                        <th className='text-center pb-5'>
                             <h5 className='table-heading'>Single</h5>
                             <p className='text-ls text-neutral-500 mt-1 font-normal'>$1.99/mo</p>
 
                         </th>
-                        <th className=' pb-5'>
+                        <th className='text-center pb-5'>
                             <h5 className='table-heading'>Premium</h5>
                             <p className='text-ls text-neutral-500 mt-1 font-normal'>$2.99/mo</p>
 
                         </th>
-                        <th className=' pb-5'>
+                        <th className='text-center pb-5'>
                             <h5 className='table-heading'>Business</h5>
                             <p className='text-ls text-neutral-500 mt-1 font-normal'>$3.99/mo</p>
 
@@ -502,9 +502,9 @@ const CompareHosting = () => {
                     <tr className='border-t border-gray-300 '>
                         <td className='table-row-heading pt-5'>
                         </td>
-                        <td><button className='py-3 px-10 border border-gray-300 rounded-full'>Select</button></td>
-                        <td> <button className='py-3 px-10 border border-gray-300 rounded-full'>Select</button></td>
-                        <td><button className='py-3 px-10 border border-gray-300 rounded-full'>Select</button></td>
+                        <td className='text-center'><button className='py-3 px-10 border border-gray-300 rounded-full'>Select</button></td>
+                        <td className='text-center'> <button className='py-3 px-10 border border-gray-300 rounded-full'>Select</button></td>
+                        <td className='text-center'><button className='py-3 px-10 border border-gray-300 rounded-full'>Select</button></td>
                     </tr>
                 </table>
 

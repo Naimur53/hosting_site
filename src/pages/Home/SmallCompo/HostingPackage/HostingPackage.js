@@ -12,7 +12,7 @@ const HostingPackage = () => {
     return (
         <div style={{ backgroundImage: 'url(/shape/Line4.png)' }} className=' relative bg-cover overflow-hidden bg-no-repeat pb-10  bg-banner'>
 
-            <div className='text-center pt-[80px] text-white '>
+            <div className='text-center pt-[86px] text-white '>
                 <h1 className='text-base mb-118  font-semibold md:font-lg '>Choose your hosting package</h1>
                 <p className='text-ls font-light '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua.</p>
             </div>
@@ -36,7 +36,7 @@ const HostingPackage = () => {
                         </label></form>
                 </div>
             </div>
-            <div className="container 0 mt-10">
+            <div className="container 0 mt-[48px]">
 
                 <div className='grid md:grid-cols-3 gap-1'>
                     <div className='h-full flex   items-center justify-center md:justify-start'>

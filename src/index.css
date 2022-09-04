@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 code {
@@ -12,10 +12,7 @@ code {
     monospace;
 }
 
-@layer utilities {
-  .img-fluid{
-    @apply w-full h-auto
-  }
+@layer utilities { 
   .input{
     @apply bg-white border border-gray-300 text-input text-xs rounded-[6px] block w-full px-2 py-3  outline outline-transparent
     placeholder:text-placeholder mb-116 font-poppins  
@@ -30,17 +27,10 @@ code {
   .submit{
     @apply bg-[#0067FF] text-white uppercase block w-full px-2 py-3 cursor-pointer
   }
-  .btn{
-    @apply inline-block py-116 px-136 rounded-full text-xs font-medium	
-  }
-  .heading{
-    @apply mt-5   md:mt-0 text-normal md:text-base  font-bold 
-  }
-  .content-text{
-    @apply mt-120 mb-148   font-normal text-[16px]
-  }
+
+  
   .acrodian-header{
-    @apply text-[#101828] py-5  mt-5 text-sm md:text-base
+    @apply text-[#101828] py-5  mt-5 text-sm font-normal md:text-base
   }
   .table-heading{
     @apply text-ls text-neutral-800 font-semibold
@@ -53,6 +43,19 @@ code {
   td{
     @apply py-4 text-neutral-700 font-normal text-ls  
   }
+  .box-active{
+    @apply bg-[#0074FF] text-white
+  }
 
-
+}
+@layer base{
+  .heading{
+    @apply mb-[16px] md:mt-0 mt-5  text-normal md:text-base  font-bold 
+  }
+  .content-text{
+    @apply  font-normal text-[16px]
+  }
+  .btn{
+    @apply inline-block py-116 px-136 rounded-full text-xs font-medium transition-all hover:bg-main-blue hover:text-white
+  }
 }
