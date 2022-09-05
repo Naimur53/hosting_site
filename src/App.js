@@ -23,8 +23,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/home' element={<Home />} />
+          <Route index element={<Home />} />
           <Route path='/web-hosting' element={<WebHosting />} />
           <Route path='/vps-game' element={<VpsGame />} />
           <Route path='/email-hosting' element={<EmailHosting />} />
