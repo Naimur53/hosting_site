@@ -8,7 +8,7 @@ const DomainBanner = () => {
             <div style={{ backgroundImage: 'url(/shape/Line4.png)' }} className=' flex items-center bg-cover bg-no-repeat overflow-hidden '>
                 <div className="container">
                     <div className='pb-[116px]'>
-                        <h1 className='pt-10 md:pt-[75px] text-lg md:text-2xl   text-center font-bold'> Got a Domain Name               </h1>
+                        <h1 className='pt-10 md:pt-[154px] text-lg md:text-2xl   text-center font-bold'> Got a Domain Name               </h1>
                         <p className='text-center  mt-[13px]  Hosting companies Interested in doing business with you font-normal text-neutral-600 text-[16px]'>Simply type in your      desired name and instantly check domain name <br /> availability. Buy and register a domain easily with Hostinger.</p>
                     </div>
                     <div className=' flex justify-center'>

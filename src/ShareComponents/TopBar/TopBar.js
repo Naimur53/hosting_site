@@ -7,75 +7,79 @@ import {
     Button,
     IconButton,
 } from "@material-tailwind/react";
-const TopBar = () => {
+import { Link, NavLink } from 'react-router-dom';
+import DropdownMenu from './SmallCompo/DropdownMenu';
+const TopBar = ({ isDark }) => {
     const [openNav, setOpenNav] = useState(false);
+    const [dark, setDark] = useState(isDark || false);
 
     useEffect(() => {
         window.addEventListener(
             "resize",
             () => window.innerWidth >= 960 && setOpenNav(false)
         );
+        const changeNavbarColor = () => {
+            if (window.scrollY >= 500) {
+                setDark(true);
+            }
+            else {
+                if (!isDark) {
+                    setDark(false);
+                }
+            }
+        };
+        window.addEventListener('scroll', changeNavbarColor);
     }, []);
 
+    const hosting = [
+        { name: 'Web Hosting', path: "web-hosting" },
+        { name: 'Vps Game', path: "vps-game" },
+        { name: 'Domain Name', path: "domain-name" },
+        { name: 'Domain Transfer', path: "transfer-domain" },
+        { name: 'Legal Documents', path: "legal-document" },
+    ]
+    const email = [
+        { name: 'Ecology 1 ', path: "ecology1" },
+        { name: 'Ecology 2', path: "ecology2" },
+    ]
+
     const navList = (
-        <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-            <Typography
-                as="li"
-                variant="small"
-                color="text-white"
-                className="p-1 font-normal"
-            >
-                <a href="#" className="flex items-center">
-                    Pages
-                </a>
-            </Typography>
-            <Typography
-                as="li"
-                variant="small"
-                color="text-white"
-                className="p-1 font-normal"
-            >
-                <a href="#" className="flex items-center">
-                    Account
-                </a>
-            </Typography>
-            <Typography
-                as="li"
-                variant="small"
-                color="text-white"
-                className="p-1 font-normal"
-            >
-                <a href="#" className="flex items-center">
-                    Blocks
-                </a>
-            </Typography>
-            <Typography
-                as="li"
-                variant="small"
-                color="text-white"
-                className="p-1 font-normal"
-            >
-                <a href="#" className="flex items-center">
-                    Docs
-                </a>
-            </Typography>
+        <ul className="mb-4  mt-2 flex flex-col gap-[28px] lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-[28px]">
+            <li className='flex lg:block justify-center  font-medium text-ls'>
+                <NavLink to='/'>Home</NavLink>
+            </li>
+            <li className='flex lg:block justify-center font-medium text-ls'>
+                <DropdownMenu name='Hosting' data={hosting}></DropdownMenu>
+
+            </li>
+            <li className='flex lg:block justify-center  font-medium text-ls'>
+                <NavLink to='/vps'>VPS</NavLink>
+            </li>
+            <li className=' flex lg:block justify-center font-medium text-ls'>
+                <DropdownMenu name='Email' data={email}></DropdownMenu>
+
+            </li>
         </ul>
     );
     return (
-        <Navbar color='white' shadow={false} fullWidth={true} blurred={false} className="mx-auto max-w-screen-xl  py-2 px-4 lg:px-8 lg:py-4 z-50 fixed text-white top-0 left-0 right-0 bg-transparent">
-            {/* <div className="container mx-auto flex items-center border-0 justify-between bg-transparent">
-                <Typography
-                    as="a"
-                    href="#"
-                    variant="small"
-                    className="mr-4 cursor-pointer py-1.5 font-normal"
+        <Navbar color='white' shadow={false} fullWidth={true} blurred={false} className={` w-vw py-2  lg:py-4 z-50 fixed ${dark || openNav ? 'text-black bg-white ' : 'text-white bg-transparent'}  top-0 left-0 right-0 `}>
+            <div className="container   flex items-center border-0 justify-between bg-transparent">
+                <div
+                    className="mr-[94px] cursor-pointer py-1.5 font-normal"
                 >
-                    <span> logo</span>
-                </Typography>
-                <div className="hidden lg:block">{navList}</div>
-                <Button variant="gradient" size="sm" className="hidden lg:inline-block">
-                    <span>Buy Now</span>
-                </Button>
+
+                    {
+                        dark || openNav ? <img src="/images/dark-logo.png" alt="logo" /> : <img src="/images/logo-white.png" alt="logo" />
+                    }
+                </div>
+                <div className=" hidden grow lg:block">{navList}</div>
+                <div className='hidden lg:block'>
+                    <NavLink className={`inline-block mr-[32px]  ${dark ? 'text-black' : 'text-white'} text-ls`} to='/login'>
+                        Login
+
+                    </NavLink>
+                    <NavLink className='inline-block px-[36px] py-[16px] rounded-[50px] bg-main-blue text-xs text-white' to='/register'>Try for free</NavLink>
+                </div>
                 <IconButton
                     variant="text"
                     className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
@@ -114,12 +118,16 @@ const TopBar = () => {
                     )}
                 </IconButton>
             </div>
-            <MobileNav open={openNav}>
+            <MobileNav open={openNav} className='  max-h-90vh'>
                 {navList}
-                <Button variant="gradient" size="sm" fullWidth className="mb-2">
-                    <span>Buy Now</span>
-                </Button>
-            </MobileNav> */}
+                <div className='flex justify-center items-center p-4'>
+                    <NavLink className={`inline-block mr-[32px]  ${dark ? 'text-black' : 'text-white'} text-ls`} to='/login'>
+                        Login
+
+                    </NavLink>
+                    <NavLink className='inline-block px-[36px] py-[16px] rounded-[50px] bg-main-blue text-xs text-white' to='/register'>Try for free</NavLink>
+                </div>
+            </MobileNav>
         </Navbar>
     );
 };

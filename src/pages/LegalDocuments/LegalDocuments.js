@@ -1,12 +1,15 @@
 import React from 'react';
+import Footer from '../../ShareComponents/Footer/Footer';
+import TopBar from '../../ShareComponents/TopBar/TopBar';
 
 const LegalDocuments = () => {
     return (
         <div>
+            <TopBar isDark={true}></TopBar>
             <div style={{ backgroundImage: 'url(/shape/bgLine.png)' }} className=' flex items-center bg-cover bg-no-repeat overflow-hidden '>
                 <div className="container">
                     <div>
-                        <h1 className='pt-10 md:pt-[74px]  text-lg md:text-xl   text-center font-bold'> Legal documents          </h1>
+                        <h1 className='pt-10 md:pt-[154px]  text-lg md:text-xl   text-center font-bold'> Legal documents          </h1>
                         <p className='text-center  mt-[13px] pb-[93px] Hosting companies Interested in doing business with you font-normal text-neutral-600 text-sm'>Simply type in your      desired name and instantly check domain name <br /> availability. Buy and register a domain easily with Hostinger.</p>
                     </div>
                     <div className='pb-[100px] md:pb-[215px] flex justify-center'>
@@ -44,6 +47,7 @@ const LegalDocuments = () => {
 
 
             </div>
+            <Footer  ></Footer>
         </div>
     );
 };

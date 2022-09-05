@@ -13,13 +13,14 @@ const Faq = () => {
     };
     function Icon({ id, open }) {
         return (
-            <div className='flex justify-center items-center'>
+            <div className='flex h-full justify-center items-center'>
                 {id === open ? <div className='w-[47px] h-[47px] relative'>
                     <div className="absolute top-1/2 -translate-y-1/2 border border-gray-900"></div>
                     <div className="absolute top-1/2 -translate-y-1/2 rotate-90 border  border-gray-900"></div>
 
                 </div>
-                    : <img className='min-w-[47px]' src="/icons/line.png" alt="" />}
+                    : <div className='border-t-[2px] border-main-blue w-[47px]'>
+                    </div>}
 
             </div >
         );

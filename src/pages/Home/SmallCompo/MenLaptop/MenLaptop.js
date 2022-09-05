@@ -12,7 +12,7 @@ const MenLaptop = () => {
 
                         <img src="/icons/qute1.png" alt="qute" />
                     </div>
-                    <p className='text-normal font-normal '> I love the performance and the technical support! Since WiredTree acquired me, I've had a lot of downtimes. It's incredible how much faster my site loads now because it works so well. Also, they have the best support. Particularly their technical knowledge. Hostim is great! I'm glad I switched!    </p>
+                    <p className='text-normal font-normal   pr-[30px]'> I love the performance and the technical support! Since WiredTree acquired me, I've had a lot of downtimes. It's incredible how much faster my site loads now because it works so well. Also, they have the best support. Particularly their technical knowledge. Hostim is great! I'm glad I switched!    </p>
                     <div className='flex justify-end'>
                         <img src="/icons/qute2.png" alt="qute" />
 

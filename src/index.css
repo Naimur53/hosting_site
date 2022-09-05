@@ -46,8 +46,14 @@ code {
   .box-active{
     @apply bg-[#0074FF] text-white
   }
+  .active-vps{
+    @apply text-main-blue border-main-blue
+  }
+ 
+ 
 
 }
+
 @layer base{
   .heading{
     @apply mb-[16px] md:mt-0 mt-5  text-normal md:text-base  font-bold 
@@ -57,5 +63,32 @@ code {
   }
   .btn{
     @apply inline-block py-116 px-136 rounded-full text-xs font-medium transition-all hover:bg-main-blue hover:text-white
+  }
+  .vps_table_heading{
+    @apply  py-[18px] font-semibold text-xs text-[#6F6F70]
+  }
+  .vps_tr{
+    @apply border-b hover:bg-gray-200 transition-all border-[#EFF1F4]
+  } 
+  .compare_tr{
+    @apply border-b hover:bg-gray-200 transition-all border-[#DFE0E1]
+  } 
+  .compare_table_heading{
+    @apply text-ls font-semibold text-[#1F1F22] py-[18px]
+  }
+  .compare_table_2nd_heading{
+    @apply font-semibold text-[#1F1F22] text-xs
+  }
+  .compare_table_content_heading{
+    @apply font-semibold text-[#1F1F22] text-xs text-left uppercase pt-[30px] pb-[16px] px-[16px]
+  }
+  .compare_table_content{
+    @apply   text-neutral-600 text-xs
+  }
+  .footer_content_heading{
+    @apply mb-[24px] font-medium text-ls text-neutral-400
+  }
+  .footer_content{
+    @apply mb-[10px] text-ls text-white
   }
 }

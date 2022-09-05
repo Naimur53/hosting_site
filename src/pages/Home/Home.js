@@ -12,6 +12,7 @@ import Faq from './SmallCompo/Faq/Faq';
 import RandomSection from './SmallCompo/RandomSection/RandomSection'
 import LocationMapSection from '../../ShareComponents/LocationMapSection/LocationMapSection'
 import TopBar from '../../ShareComponents/TopBar/TopBar';
+import Footer from '../../ShareComponents/Footer/Footer';
 const Home = () => {
     return (
         <div>
@@ -28,6 +29,7 @@ const Home = () => {
             <RandomSection></RandomSection>
             <LocationMapSection></LocationMapSection>
             <Faq></Faq>
+            <Footer className='mt-[103px]'></Footer>
 
         </div>
     );

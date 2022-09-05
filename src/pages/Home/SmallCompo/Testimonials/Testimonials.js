@@ -85,7 +85,7 @@ const Testimonials = () => {
                 }}
             >
                 {
-                    data?.map((single, i) => <SwiperSlide key={single.describe}>
+                    data?.map((single, i) => <SwiperSlide key={i}>
                         <TestimonialsCard   {...single}></TestimonialsCard>
                     </SwiperSlide>)
                 }

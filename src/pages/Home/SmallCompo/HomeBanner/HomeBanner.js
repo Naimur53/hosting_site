@@ -7,7 +7,7 @@ const HomeBanner = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-full">
                     <div className='   justify-center items-center'>
                         <div>
-                            <h1 className='pt-[97px]  text-lg md:text-3xl text-white font-bold'>Affordable <br /> Hostim Solution <br /> Website</h1>
+                            <h1 className='pt-[175px]  text-lg md:text-3xl text-white font-bold'>Affordable <br /> Hostim Solution <br /> Website</h1>
                             <p className='mt-[22px] mb-[44px] text-white font-normal text-[16px]'>Make moves a free domain and SSL included with a yearly susbscription.</p>
                             <div>
 

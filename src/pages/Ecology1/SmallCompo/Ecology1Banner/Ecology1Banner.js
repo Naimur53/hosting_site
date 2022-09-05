@@ -5,7 +5,7 @@ const Ecology1Banner = () => {
         <div style={{ backgroundImage: 'url(/shape/bgLine.png)' }} className='  pb-[42px] flex items-center bg-cover bg-no-repeat overflow-hidden '>
             <div className="container">
                 <div>
-                    <h1 className='pt-[75px]  text-lg md:text-xl   text-center font-bold'>Ecology  </h1>
+                    <h1 className='pt-[154px]  text-lg md:text-xl   text-center font-bold'>Ecology  </h1>
                     <p className='text-center  mt-[13px] mb-148 Hosting companies Interested in doing business with you font-normal text-neutral-600 text-sm'>Simply type in your      desired name and instantly check domain name <br /> availability. Buy and register a domain easily with Hostinger.</p>
                 </div>
                 <div className='mt-[77px] '>

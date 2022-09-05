@@ -27,7 +27,7 @@ const HostingBanner = () => {
         <div style={{ backgroundImage: 'url(/shape/Line4.png)' }} className=' bg-cover bg-no-repeat overflow-hidden '>
             <div className="container">
                 <div>
-                    <h1 className='mt-[75px] text-lg md:text-2xl   text-center font-bold'>Hosting companies
+                    <h1 className='mt-[154px] text-lg md:text-2xl   text-center font-bold'>Hosting companies
                         <br />
                         Interested in doing business with you</h1>
                     <p className='text-center  mt-[19px] mb-[82px] Hosting companies

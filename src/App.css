@@ -36,3 +36,6 @@ td>img{
   justify-content: center;
   
 }
+.user_star_shawdow{
+  box-shadow: 3px 19px 44px rgba(66, 75, 83, 0.37);
+}
