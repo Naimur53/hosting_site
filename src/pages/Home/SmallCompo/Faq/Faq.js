@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Fragment, useState } from "react";
 import {
     Accordion,
@@ -7,9 +7,14 @@ import {
 } from "@material-tailwind/react";
 const Faq = () => {
     const [open, setOpen] = useState(0);
-
+    const [first, setFirst] = useState(10);
+    useEffect(() => {
+        setFirst(0)
+    }, [])
     const handleOpen = (value) => {
+
         setOpen(open === value ? 0 : value);
+        setFirst(1)
     };
     function Icon({ id, open }) {
         return (
@@ -38,8 +43,8 @@ const Faq = () => {
             <div>
                 < >
                     <Accordion
-                        open={open === 1}
-                        icon={<Icon id={1} open={open} />}
+                        open={first === 0 ? true : open === 1}
+                        icon={<Icon id={first === 0 ? 0 : 1} open={open} />}
                         onClick={() => handleOpen(1)}
                     >
                         <AccordionHeader className='acrodian-header custom-acro' >Is there a free trial available?</AccordionHeader>
