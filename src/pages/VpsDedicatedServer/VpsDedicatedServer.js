@@ -8,6 +8,7 @@ import VpsFilter from '../Vps/SmallCompo/VpsFilter/VpsFilter';
 import VpsMainBanner from '../Vps/SmallCompo/VpsMainBanner/VpsMainBanner';
 import VpsTowBanner from '../Vps/SmallCompo/VpsTowBanner/VpsTowBanner';
 import VpsCompare from '../Vps/VpsCompare/VpsCompare';
+import VpsDedicatedBanner from './SmallCompo/VpsDedicatedBanner';
 import VpsDedicatedTable from './SmallCompo/VpsDedicatedTable';
 
 const VpsDedicatedServer = () => {
@@ -15,7 +16,7 @@ const VpsDedicatedServer = () => {
         <div>
             <TopBar isDark={true}></TopBar>
 
-            <VpsMainBanner dedicated={true}></VpsMainBanner>
+            <VpsDedicatedBanner ></VpsDedicatedBanner>
             <VpsFilter></VpsFilter>
             <VpsDedicatedTable></VpsDedicatedTable>
             <VpsTowBanner></VpsTowBanner>
@@ -30,7 +31,7 @@ const VpsDedicatedServer = () => {
                 <Faq></Faq>
             </div>
             <Footer className='mt-[103px]'></Footer>
-        </div>
+        </div >
     );
 };
 

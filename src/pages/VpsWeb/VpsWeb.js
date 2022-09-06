@@ -9,6 +9,7 @@ import VpsMainBanner from '../Vps/SmallCompo/VpsMainBanner/VpsMainBanner';
 import VpsMainTable from '../Vps/SmallCompo/VpsMainTable/VpsMainTable';
 import VpsTowBanner from '../Vps/SmallCompo/VpsTowBanner/VpsTowBanner';
 import VpsCompare from '../Vps/VpsCompare/VpsCompare';
+import VpsWebBanner from './SmallCompo/VpsWebBanner';
 import VpsWebTable from './SmallCompo/VpsWebTable';
 
 const VpsWeb = () => {
@@ -16,7 +17,7 @@ const VpsWeb = () => {
         <div>
             <TopBar isDark={true}></TopBar>
 
-            <VpsMainBanner web={true}></VpsMainBanner>
+            <VpsWebBanner ></VpsWebBanner>
             <VpsFilter></VpsFilter>
             <VpsWebTable></VpsWebTable>
             <VpsTowBanner></VpsTowBanner>

@@ -7,7 +7,7 @@ const VpsFilter = () => {
         <div className="container">
             <div className='mt-[19px]'>
 
-                <div className="grid grid-cols-2 lg:grid-cols-12 md:grid-cols-6  gap-[10px]">
+                <div className="grid grid-cols-2 2xl:grid-cols-12 xl:grid-cols-10 md:grid-cols-6  gap-[10px]">
                     <div className='col-span-2'>
                         <h3 className='text-semibold text-ls text-neutral-500 mb-[18px]'>Location</h3>
                         <div className='flex items-center gap-[16px]'>
@@ -28,10 +28,10 @@ const VpsFilter = () => {
                             <ToggleBtn name='Quad'></ToggleBtn>
                         </div>
                     </div>
-                    <div className='flex flex-col md:flex-row col-span-5 gap-4'>
+                    <div className='flex flex-col sm:flex-row col-span-5 mb-10 2xl:mb-0 gap-4'>
                         <div >
                             <h3 className='text-semibold text-ls text-neutral-500 pb-[18px]'>Cores</h3>
-                            <div className='inline-block'>
+                            <div className='inline-block mb-10 xl:mb-0'>
                                 <div className="flex  items-center">
                                     {/* <div className='w-[21px] h-[21px] border-[3px] rounded-full border-main-blue'></div>
                                     <div className='w-[165px] border-t-[4px] border-main-blue'></div>

@@ -10,7 +10,7 @@ const SearchArea = () => {
                     <div className='pointer-events-none absolute inset-0 flex justify-end items-center  '>
                         <div className='custom-select-width pointer-events-auto'>
                             <Select offset={6} color="white" size="sm" variant="standard" className='flex justify-center items-center border-0 select-wrap outline-0'
-                                defaultInputValue="string"
+                                defaultinputvalue="string"
                                 menuProps={{ className: '!px-1 ' }}
                                 selected={(pre) => pre ? pre : `info`}
                             >

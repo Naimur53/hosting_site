@@ -7,11 +7,14 @@ import {
     Button,
     IconButton,
 } from "@material-tailwind/react";
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import DropdownMenu from './SmallCompo/DropdownMenu';
+import MessageBar from './SmallCompo/MessageBar';
+
 const TopBar = ({ isDark }) => {
     const [openNav, setOpenNav] = useState(false);
     const [dark, setDark] = useState(isDark || false);
+    const location = useLocation()
 
     useEffect(() => {
         window.addEventListener(
@@ -53,7 +56,7 @@ const TopBar = ({ isDark }) => {
                 <DropdownMenu name='Hosting' data={hosting}></DropdownMenu>
 
             </li>
-            <li className='flex  hover:activeLink lg:block justify-center  font-medium text-ls'>
+            <li className={`flex  hover:activeLink lg:block justify-center  font-medium text-ls ${location.pathname === '/vps-dedicated-server' || location.pathname === '/vps-web' ? "activeLink" : ''}`}>
                 <NavLink className={({ isActive }) => (isActive ? 'activeLink' : 'inactive')} to='/vps'>VPS</NavLink>
             </li>
             <li className=' flex lg:block justify-center font-medium text-ls'>
@@ -63,8 +66,9 @@ const TopBar = ({ isDark }) => {
         </ul>
     );
     return (
-        <Navbar color='white' shadow={false} fullWidth={true} blurred={false} className={` w-vw py-2  lg:py-4 z-50 fixed ${dark || openNav ? 'text-black bg-white ' : 'text-white bg-transparent'}  top-0 left-0 right-0 `}>
-            <div className="container   flex items-center border-0 justify-between bg-transparent">
+        <Navbar color='white' shadow={false} fullWidth={true} blurred={false} className={` w-vw pb-2 pt-0 lg:pb-4 px-0 z-50 fixed ${dark || openNav ? 'text-black bg-white ' : 'text-white bg-transparent'}  top-0 left-0 right-0 `}>
+            <MessageBar></MessageBar>
+            <div className="container  pt-2 lg:pt-4  flex items-center border-0 justify-between bg-transparent">
                 <div
                     className="lg:mr-[50px]  xl:mr-[94px] cursor-pointer py-1.5 font-normal"
                 >

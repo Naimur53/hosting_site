@@ -6,11 +6,27 @@
   min-width: 70px!important;
 
 }
+.custom-select-width2 >div{
+  min-width: 116px!important;
+
+}
 .select-wrap span{
   font-size: 16px!important;
   padding: 0!important;
 }
+.select-wrap-2 span{ 
+  padding:0px !important;
+}
+.select-wrap-2:focus{ 
+  padding:0px !important;
+  outline:none!important ;
+  outline-offset: 0px!important;
+}
 .select-wrap span li { 
+  list-style: none;
+  padding:0px ;
+}
+.select-wrap-2 span li { 
   list-style: none;
   padding:0px ;
 }

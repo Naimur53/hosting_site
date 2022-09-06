@@ -18,7 +18,7 @@ const HomeBanner = () => {
                         </div>
                     </div>
 
-                    <div className='h-full flex justify-center items-end'>
+                    <div className='h-full flex justify-center items-center lg:items-end'>
                         <img className='mt-0 relative top-0 xl:top-[180px] md:mt-[0px]' src="/images/banner-logo.png" alt="logo" />
                     </div>
                 </div>

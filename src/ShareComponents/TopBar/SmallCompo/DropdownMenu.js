@@ -8,11 +8,13 @@ const DropdownMenu = ({ name, data }) => {
     const location = useLocation()
     useEffect(() => {
         const findPath = data.filter(single => `/${single.path}` === location.pathname)
+
         setIsActive(Boolean(findPath.length))
-    }, [location, data])
+    }, [data])
+    console.log({ name, visible });
     return (
         <div  >
-            <div onClick={() => change()} onBlur={() => setTimeout(change, 200)} className="relative inline-block menu-wrap text-left">
+            <div onClick={() => change()} onBlur={() => setTimeout(() => setVisible(() => false), 200)} className="relative inline-block menu-wrap text-left">
                 <div>
                     <button type="button" className={`inline-flex w-full justify-center rounded-md   bg-transparent px-4 py-2 text-sm font-medium   hover:text-main-blue ${isActive ? 'text-main-blue' : ''}`} id="menu-button" aria-expanded="true" aria-haspopup="true">
                         {name}

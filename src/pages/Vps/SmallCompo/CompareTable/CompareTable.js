@@ -4,8 +4,8 @@ const CompareTable = () => {
     return (
         <div className='mt-[68px]'>
 
-            <div>
-                <table className='w-full compare_table text-center'>
+            <div className='  border border-gary-300 rounded-t-[4px] xl:w-full overflow-hidden overflow-x-scroll '>
+                <table className=' 2xl:w-full w-[700px] compare_table text-center'>
                     <tr className=' '>
                         <th className='compare_table_heading'></th>
                         <th className='compare_table_heading bg-white rounded-t-[8px]'>Compare tool 1</th>

@@ -16,7 +16,7 @@ const Vps = () => {
         <div>
             <TopBar isDark={true}></TopBar>
 
-            <VpsMainBanner vps={true}></VpsMainBanner>
+            <VpsMainBanner ></VpsMainBanner>
             <VpsFilter></VpsFilter>
             <VpsMainTable></VpsMainTable>
             <VpsTowBanner></VpsTowBanner>

@@ -60,10 +60,17 @@ const DomainSlider = () => {
                     300: {
                         slidesPerView: 1,
                     },
+                    520: {
+                        slidesPerView: 2,
+
+                    },
                     // when window width is >= 768px
                     768: {
-                        slidesPerView: 5,
+                        slidesPerView: 3,
                     },
+                    1025: {
+                        slidesPerView: 5,
+                    }
                 }}
                 grabCursor={true}
             >
