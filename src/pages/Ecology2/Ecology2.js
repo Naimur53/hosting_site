@@ -15,7 +15,7 @@ const Ecology2 = () => {
             <BusinessMind ></BusinessMind>
             <BoxSection></BoxSection>
             <EcologyLastBanner></EcologyLastBanner>
-            <Footer className='mt-[228px]'></Footer>
+            <Footer className='xl:mt-[175px] mt-[80px]'></Footer>
 
         </div>
     );

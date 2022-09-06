@@ -3,9 +3,9 @@ import React from 'react';
 const BusinessMind = () => {
     return (
         <div className=''>
-            <div className='bg-dark-blue   pb-[123px] pr-5'>
+            <div className='bg-dark-blue  pb-[60px] xl:pb-[123px] pr-5'>
                 <div className='container  text-center text-white'>
-                    <div className='pt-[111px]'>
+                    <div className='xl:pt-[111px] pt-[50px]'>
                         <h1 className='heading text-white mb-[16px]'>Services that keep your business in mind</h1>
                         <p className='content-text pb-[80px]'>Lorem Ipsum is simply dummy text of the printing and typesetting <br /> industry  hosting service provider</p>
                         <div className='grid text-left grid-cols-2 md:grid-cols-4 gap-10'>

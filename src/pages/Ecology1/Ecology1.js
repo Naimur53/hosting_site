@@ -10,7 +10,7 @@ const Ecology1 = () => {
             <TopBar isDark={true}></TopBar>
             <Ecology1Banner></Ecology1Banner>
             <TitleSections></TitleSections>
-            <Footer className='mt-[175px]'></Footer>
+            <Footer className='xl:mt-[175px] mt-[80px]'></Footer>
         </div>
     );
 };

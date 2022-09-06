@@ -38,7 +38,7 @@ const HostingPackage = () => {
             </div>
             <div className="container 0 mt-[48px]">
 
-                <div className='grid md:grid-cols-3 gap-1'>
+                <div className='grid md:grid-cols-3 gap-2'>
                     <div className='h-full flex   items-center justify-center md:justify-start'>
                         <SinglePackage></SinglePackage>
                     </div>

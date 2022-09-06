@@ -2,8 +2,8 @@ import React from 'react';
 
 const BoxSection = () => {
     return (
-        <div className='mt-[149px] container'>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-[153px]">
+        <div className='xl:mt-[149px] mt-[60px] container'>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px] xl:gap-[153px]">
                 <div>
                     <div>
                         <img src="shape/box2.png" alt="box" />
