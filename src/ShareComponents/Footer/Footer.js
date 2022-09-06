@@ -5,18 +5,18 @@ const Footer = ({ className }) => {
         <div>
             <footer className={`bg-banner ${className}`}>
                 <div className="container ">
-                    <div className='md:flex justify-between'>
-                        <div className="pt-[85px]">
+                    <div className='lg:flex justify-between'>
+                        <div className="pt-[85px] w-100%  pr-5 lg:w-[30%]">
                             <a href="#" className="flex items-center">
                                 <img src="/images/footer-logo.png" className="mr-3 h-8" alt=" Logo" />
 
                             </a>
                             <p className='mt-[34px] text-ls text-neutral-300'>
-                                Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit ut aliquam, purus sit ...
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit ...
 
                             </p>
                         </div>
-                        <div className="grid grid-cols-2 gap-2 sm:gap-6 sm:grid-cols-4 mt-[80px]">
+                        <div className="grid grid-cols-2 gap-2 sm:gap-6 lg:grid-cols-4 mt-[80px]">
                             <div>
                                 <h2 className=" footer_content_heading">Resources</h2>
                                 <ul className=" ">
@@ -88,7 +88,7 @@ const Footer = ({ className }) => {
 
                         </div>
                     </div>
-                    <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                    <hr className="my-6 border-neutral-500 sm:mx-auto dark:border-gray-700 lg:my-8" />
                     <div className="sm:flex sm:items-center sm:justify-between py-[32px]">
                         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
                             © 2022 Hostim. Tous droits réservés.

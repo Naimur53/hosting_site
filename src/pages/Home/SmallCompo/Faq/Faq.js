@@ -14,13 +14,14 @@ const Faq = () => {
     function Icon({ id, open }) {
         return (
             <div className='flex h-full justify-center items-center'>
-                {id === open ? <div className='w-[47px] h-[47px] relative'>
-                    <div className="absolute top-1/2 -translate-y-1/2 border border-gray-900"></div>
-                    <div className="absolute top-1/2 -translate-y-1/2 rotate-90 border  border-gray-900"></div>
-
+                {id === open ? <div className='border-t-[2px] border-main-blue w-[47px]'>
                 </div>
-                    : <div className='border-t-[2px] border-main-blue w-[47px]'>
-                    </div>}
+                    : <div className='w-[47px] h-[47px] relative'>
+                        <div className="absolute top-1/2 -translate-y-1/2 border border-gray-900"></div>
+                        <div className="absolute top-1/2 -translate-y-1/2 rotate-90 border  border-gray-900"></div>
+
+                    </div>
+                }
 
             </div >
         );
@@ -28,10 +29,10 @@ const Faq = () => {
 
 
     return (
-        <div className='container mt-[66px]'>
-            <div className='text-center mb-[100px]'>
+        <div className='container mt-[20px] lg:mt-[66px]'>
+            <div className='text-center mb-[50px] lg:mb-[100px]'>
 
-                <h1 className='mt-10 md:mt-0 text-lg  heading font-semibold  mb-[10px]'>Frequently Asked Questions</h1>
+                <h1 className='mt-10 md:mt-0 text-base lg:text-lg  heading font-semibold  mb-[10px]'>Frequently Asked Questions</h1>
                 <p>Everything you need to know about the product and billing.</p>
             </div>
             <div>

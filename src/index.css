@@ -22,10 +22,10 @@ code {
     @apply   outline-[4px] outline-[#91C0FF] shadow-input border-[#1F74E5]  
   }
   .label{
-    @apply text-label mb-[9px] block font-poppins text-xs
+    @apply text-label mb-[9px] block  font-poppins text-xs
   }
   .submit{
-    @apply bg-[#0067FF] text-white uppercase block w-full px-2 py-3 cursor-pointer
+    @apply bg-[#0067FF] text-white uppercase block w-full hover:bg-dark-blue transition-all  px-2 py-3 cursor-pointer text-xs
   }
 
   
@@ -49,6 +49,9 @@ code {
   .active-vps{
     @apply text-main-blue border-main-blue
   }
+  .activeLink{
+    @apply text-main-blue text-ls font-medium
+  }
  
  
 
@@ -56,7 +59,7 @@ code {
 
 @layer base{
   .heading{
-    @apply mb-[16px] md:mt-0 mt-5  text-normal md:text-base  font-bold 
+    @apply mb-[16px] md:mt-0 mt-5  text-normal xl:text-base  font-bold 
   }
   .content-text{
     @apply  font-normal text-[16px]
@@ -91,4 +94,17 @@ code {
   .footer_content{
     @apply mb-[10px] text-ls text-white
   }
+  .banner_img{
+    @apply md:w-full md:max-w-full max-w-[300px] pt-[20px] md:pt-[40px] xl:pt-[152px] px-[0px] xl:px-[90px] 
+  }
+  .banner_heading{
+    @apply text-normal sm:text-base xl:text-lg font-semibold mt-5
+  }
+  .banner_grid{
+   @apply grid grid-cols-1 md:grid-cols-2 gap-2 sm:gap-4 lg:gap-[10px] 
+  }
+  .banner_content{
+    @apply mt-[24px] mb-[20px] md:mb-148 text-neutral-600 font-normal text-sm
+  }
+ 
 }

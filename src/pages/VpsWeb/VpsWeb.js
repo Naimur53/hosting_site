@@ -3,22 +3,22 @@ import Footer from '../../ShareComponents/Footer/Footer';
 import LocationMapSection from '../../ShareComponents/LocationMapSection/LocationMapSection';
 import TopBar from '../../ShareComponents/TopBar/TopBar';
 import Faq from '../Home/SmallCompo/Faq/Faq';
-import TrustCompany from '../Home/SmallCompo/TrustCompany/TrustCompany';
-import PaymentOption from './SmallCompo/PaymentOption/PaymentOption';
-import VpsFilter from './SmallCompo/VpsFilter/VpsFilter';
-import VpsMainBanner from './SmallCompo/VpsMainBanner/VpsMainBanner';
-import VpsMainTable from './SmallCompo/VpsMainTable/VpsMainTable';
-import VpsTowBanner from './SmallCompo/VpsTowBanner/VpsTowBanner';
-import VpsCompare from './VpsCompare/VpsCompare';
+import PaymentOption from '../Vps/SmallCompo/PaymentOption/PaymentOption';
+import VpsFilter from '../Vps/SmallCompo/VpsFilter/VpsFilter';
+import VpsMainBanner from '../Vps/SmallCompo/VpsMainBanner/VpsMainBanner';
+import VpsMainTable from '../Vps/SmallCompo/VpsMainTable/VpsMainTable';
+import VpsTowBanner from '../Vps/SmallCompo/VpsTowBanner/VpsTowBanner';
+import VpsCompare from '../Vps/VpsCompare/VpsCompare';
+import VpsWebTable from './SmallCompo/VpsWebTable';
 
-const Vps = () => {
+const VpsWeb = () => {
     return (
         <div>
             <TopBar isDark={true}></TopBar>
 
-            <VpsMainBanner vps={true}></VpsMainBanner>
+            <VpsMainBanner web={true}></VpsMainBanner>
             <VpsFilter></VpsFilter>
-            <VpsMainTable></VpsMainTable>
+            <VpsWebTable></VpsWebTable>
             <VpsTowBanner></VpsTowBanner>
             <PaymentOption></PaymentOption>
             <VpsCompare></VpsCompare>
@@ -35,4 +35,4 @@ const Vps = () => {
     );
 };
 
-export default Vps;
+export default VpsWeb;

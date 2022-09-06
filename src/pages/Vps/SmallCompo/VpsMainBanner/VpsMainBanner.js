@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
-const VpsMainBanner = () => {
+const VpsMainBanner = ({ vps, dedicated, web }) => {
+    const [selected, setSelected] = useState(0);
+
+    const changeSelect = id => setSelected(id);
+
+    const data = ['All plans', 'Lightweight', 'Middleweight', 'Heavyweight '];
     return (
         <div>
             <div className='container'>
                 <div className='mt-[118px]'>
                     <div className='flex flex-col md:flex-row  gap-[8px]'>
-                        <button className='py-[8px] px-[36px] bg-main-blue text-white rounded-[50px] text-xs font-medium'>VPS</button>
-                        <button className='py-[8px] px-[36px] btn rounded-[50px] text-xs font-medium border border-[#D5DCE4]'>Dedicated servers</button>
-                        <button className='py-[8px] px-[36px] btn rounded-[50px] text-xs font-medium border border-[#D5DCE4]'>Web hosting</button>
+                        <Link to='/vps' className={`py-[8px] px-[36px] ${vps ? 'bg-main-blue text-white' : 'border border-[#D5DCE4]'}  rounded-[50px] text-xs font-medium`}>VPS</Link>
+                        <Link to='/vps-dedicated-server' className={`py-[8px] px-[36px] ${dedicated ? 'bg-main-blue text-white' : 'border border-[#D5DCE4]'}   rounded-[50px] text-xs font-medium`}>Dedicated servers</Link>
+                        <Link to='/vps-web' className={`py-[8px] px-[36px] ${web ? 'bg-main-blue text-white' : 'border border-[#D5DCE4]'}  rounded-[50px] text-xs font-medium`}>Web hosting</Link>
                     </div>
 
                 </div>
@@ -20,13 +26,14 @@ const VpsMainBanner = () => {
                     <div className='md:flex justify-between mt-[42px]'>
 
                         <div className='flex md:flex-row flex-col gap-[7px] '>
-                            <button className='py-[18px] px-[20px] text-center font-semibold text-ls text-neutral-500  transition-all border-t-[2px] bg-white active-vps'>All plans</button>
-                            <button className='py-[18px] px-[20px] text-center bg-white font-semibold text-ls text-neutral-500  transition-all border-t-[2px] '>Lightweight</button>
-                            <button className='py-[18px] px-[20px] text-center font-semibold text-ls text-neutral-500  transition-all border-t-[2px] bg-white'>Middleweight</button>
-                            <button className='py-[18px] px-[20px] text-center font-semibold text-ls text-neutral-500  transition-all border-t-[2px] bg-white'>Heavyweight</button>
+                            {
+                                data.map((single, i) => <button key={i} onClick={() => changeSelect(i)} className={`py-[18px] px-[20px] text-center font-semibold text-ls text-neutral-500  transition-all border-t-[2px] bg-white ${selected === i && 'active-vps'}`}>{single}</button>)
+                            }
+
+
                         </div>
                         <div className='mt-[7px]'>
-                            <button className='w-full md:auto py-[18px] px-[20px] text-center font-semibold text-ls text-neutral-500  transition-all border-t-[2px] bg-white'>Billing cycle Monthly</button>
+                            <button onClick={() => changeSelect(4)} className={`py-[18px] px-[20px] text-center font-semibold text-ls text-neutral-500  transition-all border-t-[2px] bg-white ${selected === 4 && 'active-vps'}`}>Billing cycle Monthly</button>
 
                         </div>
                     </div>

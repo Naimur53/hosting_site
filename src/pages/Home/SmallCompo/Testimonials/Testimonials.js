@@ -53,7 +53,7 @@ const Testimonials = () => {
         isEnd: false
     });
     return (
-        <div className='container mt-[135px] pb-[154px]'>
+        <div className='container mt-[135px] pb-[50px] lg:pb-[154px]'>
             <Swiper
                 spaceBetween={50}
                 slidesPerView={3}
@@ -68,6 +68,9 @@ const Testimonials = () => {
                     },
                     // when window width is >= 768px
                     768: {
+                        slidesPerView: 2,
+                    },
+                    1025: {
                         slidesPerView: 3,
                     },
                 }}

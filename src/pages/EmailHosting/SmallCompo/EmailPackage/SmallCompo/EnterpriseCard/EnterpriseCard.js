@@ -21,7 +21,7 @@ const EnterpriseCard = () => {
                         <sub className='text-ls text-neutral-400'>/mo</sub>
                         <h6 className='text-center'>price per mailbox</h6>
                     </div>
-                    <button className='text-white  hover:bg-dark-blue  bg-dark-bright-blue py-[15px] font-light text-sm  rounded-3xl  block w-full'>Select</button>
+                    <button className='text-white cursor-pointer hover:bg-dark-blue bg-dark-bright-blue py-[15px] font-light text-sm  rounded-3xl  block w-full'>Select</button>
                     <p className='mt-[15px] pb-[37px] text-[#999999]'>$6.99/mo when you renew</p>
                 </div>
 

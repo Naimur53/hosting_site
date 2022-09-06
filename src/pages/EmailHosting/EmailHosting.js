@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../ShareComponents/Footer/Footer';
 import TopBar from '../../ShareComponents/TopBar/TopBar';
 import Faq from '../Home/SmallCompo/Faq/Faq';
 import CreateEmail from './SmallCompo/CreateEmail/CreateEmail';
@@ -19,6 +20,7 @@ const EmailHosting = () => {
             <MoneyBack></MoneyBack>
             <Faq></Faq>
             <SomethingElse></SomethingElse>
+            <Footer className=' mt-[40px] md:mt-[112px] '></Footer>
         </div>
     );
 };

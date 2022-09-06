@@ -1,4 +1,5 @@
 import React from 'react';
+import MultiRangeSlider from '../../../../ShareComponents/MultiRangeSlider/MultiRangeSlider';
 import ToggleBtn from '../../../../ShareComponents/ToggleBtn/ToggleBtn';
 
 const VpsFilter = () => {
@@ -29,18 +30,18 @@ const VpsFilter = () => {
                     </div>
                     <div className='flex flex-col md:flex-row col-span-5 gap-4'>
                         <div >
-                            <h3 className='text-semibold text-ls text-neutral-500 mb-[18px]'>Cores</h3>
+                            <h3 className='text-semibold text-ls text-neutral-500 pb-[18px]'>Cores</h3>
                             <div className='inline-block'>
                                 <div className="flex  items-center">
-                                    <div className='w-[21px] h-[21px] border-[3px] rounded-full border-main-blue'></div>
+                                    {/* <div className='w-[21px] h-[21px] border-[3px] rounded-full border-main-blue'></div>
                                     <div className='w-[165px] border-t-[4px] border-main-blue'></div>
-                                    <div className='w-[21px] h-[21px] border-[3px] rounded-full border-main-blue'></div>
-
-                                </div>
-                                <div className='flex mt-[3px] justify-between'>
-                                    <p className='text-semibold text-xs text-neutral-500'>4 cores</p>
-                                    <p className='text-semibold text-xs text-neutral-500'>56 cores</p>
-
+                                    <div className='w-[21px] h-[21px] border-[3px] rounded-full border-main-blue'></div> */}
+                                    <MultiRangeSlider
+                                        min={4}
+                                        title='cores'
+                                        max={56}
+                                        onChange={({ min, max }) => console.log(`min = ${min}, max = ${max}`)}
+                                    />
                                 </div>
 
                             </div>
@@ -49,17 +50,13 @@ const VpsFilter = () => {
                         <div  >
                             <h3 className='text-semibold text-ls text-neutral-500 mb-[18px]'>Ram</h3>
                             <div className='inline-block'>
-                                <div className="flex  items-center">
-                                    <div className='w-[21px] h-[21px] border-[3px] rounded-full border-main-blue'></div>
-                                    <div className='w-[165px]   border-t-[4px] border-main-blue'></div>
-                                    <div className='w-[21px] h-[21px] border-[3px] rounded-full border-main-blue'></div>
+                                <MultiRangeSlider
+                                    min={16}
+                                    title='GB'
+                                    max={1536}
+                                    onChange={({ min, max }) => console.log(`min = ${min}, max = ${max}`)}
+                                />
 
-                                </div>
-                                <div className='flex mt-[3px] justify-between'>
-                                    <p className='text-semibold text-xs text-neutral-500'>16 GB</p>
-                                    <p className='text-semibold text-xs text-neutral-500'>1536 GB</p>
-
-                                </div>
 
                             </div>
 

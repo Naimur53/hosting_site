@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TransferBanner = () => {
     return (
@@ -16,7 +17,8 @@ const TransferBanner = () => {
                         </div>
                     </div>
                     <div className="mt-[24px]   text-center">
-                        <p className='text-ls font-medium'>Looking for a new domain name? <span className='text-main-blue'>Try new one</span></p>
+                        <p className='text-ls font-medium'>Looking for a new domain name?
+                            <Link to='/domain-name' className='text-main-blue'> Try new one</Link></p>
                     </div>
 
 

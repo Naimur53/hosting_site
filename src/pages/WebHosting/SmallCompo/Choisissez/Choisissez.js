@@ -12,7 +12,7 @@ const Choisissez = () => {
                 </div>
             </div>
             <div className='container mt-150 '>
-                <div className="grid grid-cols-4   gap-6">
+                <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1   gap-6">
                     <div className='flex mt-5'>
                         <div className='w-[62px] text-neutral-400 h-[62px] rounded-full border text-ls flex justify-center items-center'>icons</div>
                         <div className=' ml-[13px]' >

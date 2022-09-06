@@ -10,7 +10,7 @@ const EmailPackage = () => {
     }
     return (
         <div>
-            <div style={{ backgroundImage: 'url(/shape/Line4.png)' }} className=' relative bg-cover overflow-hidden bg-no-repeat pb-10  bg-banner'>
+            <div style={{ backgroundImage: 'url(/shape/Line4.png)' }} className=' relative bg-contain bg-center overflow-hidden bg-no-repeat pb-10  bg-banner'>
 
                 <div className='text-center pt-[80px] text-white '>
                     <h1 className='text-base mb-118  font-semibold md:font-lg '>Choose your hosting package</h1>

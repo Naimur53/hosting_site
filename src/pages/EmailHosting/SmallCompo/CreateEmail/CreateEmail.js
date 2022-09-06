@@ -2,8 +2,8 @@ import React from 'react';
 
 const CreateEmail = () => {
     return (
-        <div className='mt-[150px] pb-[70px ] md:pb-[140px] container'>
-            <h1 className='text-xl text-center text-neutral-700 font-semibold mb-[52px]'>How to Create a Business Email Address</h1>
+        <div className='mt-[80px] xl:mt-[150px] pb-[70px] md:pb-[140px] container'>
+            <h1 className='text-base xl:text-xl text-center text-neutral-700 font-semibold mb-[52px]'>How to Create a Business Email Address</h1>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-[68px]'>
                 <div className='text-center'>
                     <div className='flex justify-center'>

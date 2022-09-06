@@ -1,3 +1,4 @@
+import { Tooltip } from '@material-tailwind/react';
 import React from 'react';
 
 const BusinessPackage = () => {
@@ -17,7 +18,7 @@ const BusinessPackage = () => {
                     <sub className='text-ls text-neutral-400'>/mo</sub>
                     <h6 className='text-center'>USD</h6>
                 </div>
-                <button className='text-white  bg-dark-blue py-[15px] font-light text-sm  rounded-3xl  block w-full'>Select</button>
+                <button className='text-white  bg-dark-blue relative py-[15px] font-light text-sm  rounded-3xl  block w-full'>Select</button>
                 <p className='mt-118'>$8.99/mo when you renew</p>
             </div>
             <div className='text-left'>
@@ -41,7 +42,10 @@ const BusinessPackage = () => {
                         ~100 000
                         <span className='font-normal ml-2'> Visits Monthly
                         </span>
-                        <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        <Tooltip className='text-xs' content='lorem will go '>
+
+                            <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        </Tooltip>
                     </p>
                 </div >
                 <div className='mb-2'>
@@ -49,7 +53,10 @@ const BusinessPackage = () => {
                         Free
                         <span className='font-normal ml-2'> Email
                         </span>
-                        <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        <Tooltip className='text-xs' content='lorem will go '>
+
+                            <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        </Tooltip>
                     </p>
                 </div>
                 <div className='mb-2'>
@@ -57,7 +64,10 @@ const BusinessPackage = () => {
                         Unlimited
                         <span className='font-normal ml-2'> Bandwidth
                         </span>
-                        <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        <Tooltip className='text-xs' content='lorem will go '>
+
+                            <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        </Tooltip>
                     </p>
                 </div>
                 <div className='mb-2'>
@@ -65,7 +75,6 @@ const BusinessPackage = () => {
                         Unlimited
                         <span className='font-normal ml-2'> Databases
                         </span>
-                        <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
                     </p>
                 </div>
 
@@ -78,7 +87,10 @@ const BusinessPackage = () => {
                         Unlimited
                         <span className='font-normal ml-2'> Free SSL
                         </span>
-                        <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        <Tooltip className='text-xs' content='lorem will go '>
+
+                            <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        </Tooltip>
                     </p>
                 </div >
                 <div className='mb-2'>
@@ -89,7 +101,10 @@ const BusinessPackage = () => {
                             <br />
                             Nameservers
                         </span>
-                        <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        <Tooltip className='text-xs' content='lorem will go '>
+
+                            <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        </Tooltip>
                     </p>
                 </div >
                 <div className='mb-2'>
@@ -98,7 +113,10 @@ const BusinessPackage = () => {
                         Cloudflare
                         <span className='font-normal ml-2'> CDN ($9.95 value)
                         </span>
-                        <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        <Tooltip className='text-xs' content='lorem will go '>
+
+                            <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        </Tooltip>
                     </p>
                 </div >
 
@@ -119,7 +137,10 @@ const BusinessPackage = () => {
                         Free
                         <span className='font-normal ml-2'> Domain ($8.99 value)
                         </span>
-                        <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        <Tooltip className='text-xs' content='lorem will go '>
+
+                            <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        </Tooltip>
                     </p>
                 </div >
 
@@ -135,7 +156,10 @@ const BusinessPackage = () => {
                         Managed
                         <span className='font-normal ml-2'> WordPress
                         </span>
-                        <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        <Tooltip className='text-xs' content='lorem will go '>
+
+                            <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        </Tooltip>
                     </p>
                 </div >
                 <div className='mb-2'>
@@ -144,14 +168,20 @@ const BusinessPackage = () => {
                         WordPress
                         <span className='font-normal ml-2'> Acceleration
                         </span>
-                        <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        <Tooltip className='text-xs' content='lorem will go '>
+
+                            <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        </Tooltip>
                     </p>
                 </div >
                 <div className='mb-2'>
                     <p className='font-bold'>
                         <img className='inline-block mr-2' src="/icons/right.png" alt="" />
                         WordPress Staging Tool
-                        <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        <Tooltip className='text-xs' content='lorem will go '>
+
+                            <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        </Tooltip>
                     </p>
                 </div >
 
@@ -166,7 +196,10 @@ const BusinessPackage = () => {
                         30 Days
                         <span className='font-normal ml-2'> Money Back <br />Guarantee
                         </span>
-                        <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        <Tooltip className='text-xs' content='lorem will go '>
+
+                            <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        </Tooltip>
                     </p>
                 </div >
                 <div className='mb-2'>
@@ -175,7 +208,10 @@ const BusinessPackage = () => {
                         24/7/365
                         <span className='font-normal ml-2'> Support
                         </span>
-                        <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        <Tooltip className='text-xs' content='lorem will go '>
+
+                            <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        </Tooltip>
                     </p>
                 </div >
                 <div className='mb-2'>
@@ -185,17 +221,20 @@ const BusinessPackage = () => {
                         <span className='font-normal ml-2'>
                             Uptime Guarantee
                         </span>
-                        <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        <Tooltip className='text-xs' content='lorem will go '>
+
+                            <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                        </Tooltip>
                     </p>
                 </div >
 
 
             </div>
-            <div className='flex justify-center border-t py-116 border-black items-center mt-120'>
+            <a href='#' className='flex justify-center border-t py-116 border-black items-center mt-120'>
                 <h4>See all features</h4>
 
                 <img className='ml-2' src="/icons/keyboard_arrow_down.png" alt="" />
-            </div>
+            </a>
 
 
 

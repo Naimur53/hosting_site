@@ -2,11 +2,11 @@ import React from 'react';
 
 const LocationMapSection = () => {
     return (
-        <div className='container mt-[153px]'>
+        <div className='container mt-[80px] lg:mt-[153px]'>
 
-            <div className='block md:flex mb-[90px] justify-between'>
+            <div className='flex flex-col md:flex-row mb-[90px] lg:items-center gap-5 justify-between'>
                 <div>
-                    <h1 className='font-semibold text-lg'>Hostim in world <br /> Datacenters </h1>
+                    <h1 className='font-semibold text-base  lg:text-lg w-full  text-center md:text-left lg:w-[80%]'>Hostim in world  Datacenters </h1>
 
                 </div>
                 <div className='flex md:flex-row gap-3 md:gap-0 flex-col md:mt-0 mt-5'>

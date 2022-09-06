@@ -19,7 +19,7 @@ const TopBar = ({ isDark }) => {
             () => window.innerWidth >= 960 && setOpenNav(false)
         );
         const changeNavbarColor = () => {
-            if (window.scrollY >= 500) {
+            if (window.scrollY >= 80) {
                 setDark(true);
             }
             else {
@@ -33,6 +33,7 @@ const TopBar = ({ isDark }) => {
 
     const hosting = [
         { name: 'Web Hosting', path: "web-hosting" },
+        { name: 'Email Hosting', path: "email-hosting" },
         { name: 'Vps Game', path: "vps-game" },
         { name: 'Domain Name', path: "domain-name" },
         { name: 'Domain Transfer', path: "transfer-domain" },
@@ -45,15 +46,15 @@ const TopBar = ({ isDark }) => {
 
     const navList = (
         <ul className="mb-4  mt-2 flex flex-col gap-[28px] lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-[28px]">
-            <li className='flex lg:block justify-center  font-medium text-ls'>
-                <NavLink to='/'>Home</NavLink>
+            <li className='flex lg:block hover:activeLink justify-center  font-medium text-ls'>
+                <NavLink className={({ isActive }) => (isActive ? 'activeLink' : 'inactive')} to='/'>Home</NavLink>
             </li>
             <li className='flex lg:block justify-center font-medium text-ls'>
                 <DropdownMenu name='Hosting' data={hosting}></DropdownMenu>
 
             </li>
-            <li className='flex lg:block justify-center  font-medium text-ls'>
-                <NavLink to='/vps'>VPS</NavLink>
+            <li className='flex  hover:activeLink lg:block justify-center  font-medium text-ls'>
+                <NavLink className={({ isActive }) => (isActive ? 'activeLink' : 'inactive')} to='/vps'>VPS</NavLink>
             </li>
             <li className=' flex lg:block justify-center font-medium text-ls'>
                 <DropdownMenu name='Email' data={email}></DropdownMenu>
@@ -65,12 +66,14 @@ const TopBar = ({ isDark }) => {
         <Navbar color='white' shadow={false} fullWidth={true} blurred={false} className={` w-vw py-2  lg:py-4 z-50 fixed ${dark || openNav ? 'text-black bg-white ' : 'text-white bg-transparent'}  top-0 left-0 right-0 `}>
             <div className="container   flex items-center border-0 justify-between bg-transparent">
                 <div
-                    className="mr-[94px] cursor-pointer py-1.5 font-normal"
+                    className="lg:mr-[50px]  xl:mr-[94px] cursor-pointer py-1.5 font-normal"
                 >
 
-                    {
-                        dark || openNav ? <img src="/images/dark-logo.png" alt="logo" /> : <img src="/images/logo-white.png" alt="logo" />
-                    }
+                    <NavLink className='inline-block' to='/'>
+                        {
+                            dark || openNav ? <img src="/images/dark-logo.png" alt="logo" /> : <img src="/images/logo-white.png" alt="logo" />
+                        }
+                    </NavLink>
                 </div>
                 <div className=" hidden grow lg:block">{navList}</div>
                 <div className='hidden lg:block'>
@@ -121,7 +124,7 @@ const TopBar = ({ isDark }) => {
             <MobileNav open={openNav} className='  max-h-90vh'>
                 {navList}
                 <div className='flex justify-center items-center p-4'>
-                    <NavLink className={`inline-block mr-[32px]  ${dark ? 'text-black' : 'text-white'} text-ls`} to='/login'>
+                    <NavLink className={`inline-block mr-[32px] text-black  ${dark || isDark ? 'text-black' : 'text-white'} text-ls`} to='/login'>
                         Login
 
                     </NavLink>

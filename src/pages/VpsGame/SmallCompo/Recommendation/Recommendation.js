@@ -19,11 +19,11 @@ const Recommendation = () => {
                 </div>
 
                 {/* background blur effect  */}
-                <div className="absolute   left-1/2 top-[300px]">
-                    <div className='bg-[#07E1BA] absolute rotate-[14deg] blur-[200px] h-[150px] w-[100px] md:w-[640px] -translate-x-1/2'>
+                <div className="absolute pointer-events-none  left-1/2 top-[300px]">
+                    <div className='bg-[#07E1BA] absolute rotate-[14deg] blur-[150px] h-[177px] w-[100px] md:w-[851px] -translate-x-1/2'>
 
                     </div>
-                    <div className='bg-[#0074FF] absolute rotate-[-4deg] blur-[200px] h-[150px]  w-[100px] md:w-[640px]'>
+                    <div className='bg-[#0074FF] -translate-x-1/2 absolute rotate-[-4deg] blur-[227px] h-[150px]  w-[100px] md:w-[961px]'>
 
                     </div>
 
