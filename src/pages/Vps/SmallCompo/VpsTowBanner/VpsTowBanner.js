@@ -4,7 +4,7 @@ const VpsTowBanner = () => {
     return (
         <div className='bg-[#F6F7F9] xl:mt-[111px] mt-[50px]'>
             <div className='  '>
-                <div className="container h-full">
+                <div className="container  h-full">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-[92px] h-full">
                         <div className='overflow-hidden  flex justify-center items-center h-full  '  >
                             <div className=''>
@@ -32,7 +32,7 @@ const VpsTowBanner = () => {
             </div>
             <div className='  '>
                 <div className="container h-full">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 xl:gap-[92px] h-full">
+                    <div className=" md:grid flex flex-col-reverse grid-cols-1 md:grid-cols-2 gap-4 xl:gap-[92px] h-full">
 
                         <div className='h-full flex xl:justify-center items-center'>
                             <div className='md:pb-[120px] pb-10'>
@@ -49,7 +49,7 @@ const VpsTowBanner = () => {
                         <div className='overflow-hidden  flex justify-center items-center h-full  '  >
                             <div className=''>
 
-                                <img className='pt-10  pb-[40px] xl:pb-[82px] xl:pt-[150px]   ' src="/images/box4.png" alt="shapes" />
+                                <img className='pt-10  pb-[0px] xl:pb-[82px] xl:pt-[150px]   ' src="/images/box4.png" alt="shapes" />
                             </div>
                         </div>
 

@@ -14,7 +14,7 @@ const RecomCard = ({ dollar, }) => {
                         <h2 className='text-normal mb-118 font-bold'>Value</h2>
                         <p className='text-ls text-neutral-200 mb-120'> US$ 6</p>
                         <div>
-                            <h1 className='text-xl md:text-2xl   font-semibold mr-1'>US$ {dollar}</h1>
+                            <h1 className='text-xl xl:text-2xl   font-semibold mr-1'>US$ {dollar}</h1>
                         </div>
                         <div className='mt-1 mb-120'>
                             <p className='text-xs'>ex. GST/month during two years</p>
@@ -22,7 +22,7 @@ const RecomCard = ({ dollar, }) => {
                         </div>
                         <div className='flex justify-center'>
 
-                            <button className='text-white  bg-dark-bright-blue py-[16px] px-[50px] font-light text-sm  rounded-full block  '>Order Now</button>
+                            <button className='text-white  bg-dark-bright-blue py-[16px] px-[50px] font-light text-xs 2xl:text-sm  rounded-full block  '>Order Now</button>
                         </div>
                         <p className='my-118 text-xs font-medium text-[#BEF1FF]'>
                             1 vCore

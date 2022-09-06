@@ -1,5 +1,6 @@
 import React from 'react';
 import { Tooltip, } from "@material-tailwind/react";
+import { HashLink } from 'react-router-hash-link';
 
 const SinglePackage = () => {
     return (
@@ -44,7 +45,10 @@ const SinglePackage = () => {
                         </span>
                         <Tooltip className='text-xs' content='lorem will go '>
 
-                            <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                            <Tooltip className='text-xs' content='lorem will go '>
+
+                                <img className='inline-block ml-2' src="/icons/help_outline.png" alt="" />
+                            </Tooltip>
                         </Tooltip>
                     </p>
                 </div >
@@ -218,11 +222,11 @@ const SinglePackage = () => {
 
 
             </div>
-            <a href='#' className='flex justify-center border-t py-116 border-black items-center mt-120'>
+            <HashLink to='/web-hosting#compare' className='flex justify-center border-t py-116 border-black items-center mt-120'>
                 <h4>See all features</h4>
 
                 <img className='ml-2' src="/icons/keyboard_arrow_down.png" alt="" />
-            </a>
+            </HashLink>
 
 
 

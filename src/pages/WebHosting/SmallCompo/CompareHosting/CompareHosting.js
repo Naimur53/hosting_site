@@ -3,7 +3,7 @@ import React from 'react';
 
 const CompareHosting = () => {
     return (
-        <div className='container flex flex-col items-center mt-[80px] lg:mt-[148px] mb-[60px] lg:mb-[118px]'>
+        <div id='compare' className='container flex flex-col items-center pt-[80px] lg:pt-[148px] mb-[60px] lg:mb-[118px]'>
             <h1 className='text-base font-semibold text-center md:text-xl mb-[63px]'>Compare All Web Hosting Plans</h1>
 
             <div className='border border-gray-300 rounded-md p-4 px-10 xl:w-full md:overflow-hidden overflow-x-scroll w-[80vw]  '>

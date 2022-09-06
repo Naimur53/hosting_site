@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 const TransferBanner = () => {
     return (
         <div>
-            <div style={{ backgroundImage: 'url(/shape/Line5.png)' }} className='pb-[56px] flex items-center bg-cover bg-right-bottom bg-no-repeat overflow-hidden mt-10'>
+            <div style={{ backgroundImage: 'url(/shape/Line5.png)' }} className='pb-[56px] flex items-center bg-cover bg-right-bottom bg-no-repeat overflow-hidden  '>
                 <div className="container">
                     <div>
-                        <h1 className='pt-10 md:pt-[151px]  text-lg md:text-2xl   text-center font-bold'>Transfer your domain  </h1>
+                        <h1 className='pt-[140px] md:pt-[151px]  text-lg md:text-2xl   text-center font-bold'>Transfer your domain  </h1>
                         <p className='text-center  mt-[12px] mb-[32px] Hosting companies Interested in doing business with you font-normal text-neutral-600 text-sm'>Don't just take our word for it. We're the web hosting provider of <br /> choice for thousands of happy customers.</p>
                     </div>
                     <div className='mt-[32px] flex justify-center '>

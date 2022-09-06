@@ -5,7 +5,7 @@ const TenSection = () => {
         <div>
             <div className=' xl:mb-[100px]  mb-[20px]'>
                 <div className="container h-full">
-                    <div className="banner_grid h-full">
+                    <div className="banner_grid md:grid flex flex-col-reverse h-full">
                         <div className='h-full flex md:justify-center items-center'>
                             <div>
                                 <h1 className='banner_heading'>Get notified when an email is opened by a recipient</h1>
@@ -58,7 +58,7 @@ const TenSection = () => {
             </div>
             <div className='xl:mb-[100px]  mb-[20px]'>
                 <div className="container h-full">
-                    <div className="banner_grid h-full">
+                    <div className="banner_grid md:grid flex flex-col-reverse h-full">
 
                         <div className='h-full flex md:justify-center items-center'>
                             <div>
@@ -111,7 +111,7 @@ const TenSection = () => {
 
             <div className='xl:mb-[100px]   mb-[20px]'>
                 <div className="container h-full">
-                    <div className="banner_grid h-full">
+                    <div className="banner_grid md:grid flex flex-col-reverse h-full">
 
                         <div className='h-full flex md:justify-center items-center'>
                             <div>
@@ -165,7 +165,7 @@ const TenSection = () => {
             </div>
             <div className='xl:mb-[100px]   mb-[20px]'>
                 <div className="container h-full">
-                    <div className="banner_grid h-full">
+                    <div className="banner_grid md:grid flex flex-col-reverse h-full">
 
                         <div className='h-full flex md:justify-center items-center'>
                             <div>
@@ -220,7 +220,7 @@ const TenSection = () => {
             </div>
             <div className='xl:mb-[100px]   mb-[20px]'>
                 <div className="container h-full">
-                    <div className=" banner_grid h-full">
+                    <div className=" banner_grid md:grid flex flex-col-reverse h-full">
 
                         <div className='h-full flex md:justify-center items-center'>
                             <div>

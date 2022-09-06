@@ -5,7 +5,7 @@ const TowBanner = () => {
         <div>
             <div className='bg-cover mt-[20px] md:mt-0 bg-no-repeat overflow-hidden  '>
                 <div className="container h-full">
-                    <div className="banner_grid h-full">
+                    <div className="banner_grid md:grid flex flex-col-reverse h-full">
                         <div className='h-full flex justify-center items-center'>
                             <div>
                                 <h1 className='banner_heading'>Your Privacy is Taken <br /> Care Of</h1>
@@ -27,7 +27,7 @@ const TowBanner = () => {
                 </div>
 
             </div>
-            <div className=' bg-cover bg-no-repeat overflow-hidden mb-[100px] mt-10 xl:mt-0'>
+            <div className=' bg-cover bg-no-repeat overflow-hidden mb-[40px] mt-10 xl:mt-0'>
                 <div className="container h-full">
                     <div className="banner_grid h-full">
                         <div className='overflow-hidden  flex justify-center items-center  h-full  '  >

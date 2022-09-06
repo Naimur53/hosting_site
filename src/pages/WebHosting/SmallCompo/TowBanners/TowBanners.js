@@ -3,7 +3,7 @@ import React from 'react';
 const TowBanners = () => {
     return (
         <div>
-            <div className=' bg-cover pb-[40px] lg:pb-[90px] bg-no-repeat overflow-hidden bg-[#EDF2F4]'>
+            <div className=' bg-cover  pb-[20px] lg:pb-[90px] bg-no-repeat overflow-hidden bg-[#EDF2F4]'>
                 <div className="container h-full">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-[121px] h-full">
                         <div>
@@ -31,9 +31,9 @@ const TowBanners = () => {
                 </div>
 
             </div>
-            <div className=' bg-cover pb-[40px] lg:pb-[90px] bg-no-repeat overflow-hidden bg-[#EDF2F4]'>
+            <div className=' bg-cover  pb-[20px] lg:pb-[90px] bg-no-repeat overflow-hidden bg-[#EDF2F4]'>
                 <div className="container h-full">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-[121px] h-full">
+                    <div className="md:grid flex flex-col-reverse grid-cols-1 md:grid-cols-2 gap-8 lg:gap-[121px] h-full">
 
                         <div className=' flex justify-center items-center'>
                             <div>

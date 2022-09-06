@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 const EnterpriseCard = () => {
     return (
@@ -102,11 +103,11 @@ const EnterpriseCard = () => {
                         </p>
                     </div >
                 </div >
-                <div className='flex justify-center border-t py-116 border-gray-500 items-center mt-[47px]'>
+                <HashLink to='/web-hosting#compare' className='flex justify-center border-t py-116 border-gray-500 items-center mt-[47px]'>
                     <h4>See all features</h4>
 
                     <img className='ml-2' src="/icons/keyboard_arrow_down_dark.png" alt="" />
-                </div>
+                </HashLink>
 
 
 

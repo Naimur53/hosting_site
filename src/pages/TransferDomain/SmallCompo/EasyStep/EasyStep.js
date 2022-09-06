@@ -4,9 +4,9 @@ const EasyStep = () => {
     return (
         <div className='bg-[#EDF2F4]'>
             <div className='container'>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-[100px]">
+                <div className=" md:grid flex flex-col-reverse grid-cols-1 md:grid-cols-2 gap-[20px] md:gap-[100px]">
                     <div >
-                        <h2 className='text-base  pt-[45px] font-semibold mb-116'>Easy steps for transfer domain </h2>
+                        <h2 className='text-base  pt-[20px] font-semibold mb-116'>Easy steps for transfer domain </h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been thdustry's standard dummy text.
                             over wordpress hosting </p>
                         <div className='mt-5 md:pb-[73px] flex flex-col gap-[24px] '>
@@ -27,7 +27,7 @@ const EasyStep = () => {
                         </div>
                     </div>
                     <div>
-                        <img className='md:pt-[49px] pb-[77px]' src="/images/box4.png" alt="box" />
+                        <img className='md:pt-[49px] pt-[20px] pb-[20px] xl:pb-[77px]' src="/images/box4.png" alt="box" />
                     </div>
 
                 </div>

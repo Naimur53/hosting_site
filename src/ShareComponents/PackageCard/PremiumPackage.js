@@ -1,5 +1,6 @@
 import { Tooltip } from '@material-tailwind/react';
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 const PremiumPackage = () => {
     return (
@@ -219,11 +220,11 @@ const PremiumPackage = () => {
 
 
                 </div>
-                <a href='#' className='flex justify-center border-t py-116 border-gray-300 items-center mt-120'>
+                <HashLink to='/web-hosting#compare' className='flex justify-center border-t py-116 border-gray-300 items-center mt-120'>
                     <h4>See all features</h4>
 
                     <img className='ml-2' src="/icons/keyboard_arrow_down_dark.png" alt="" />
-                </a>
+                </HashLink>
 
 
 
