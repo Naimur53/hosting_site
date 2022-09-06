@@ -19,11 +19,16 @@ import TransferDomain from './pages/TransferDomain/TransferDomain';
 import Vps from './pages/Vps/Vps';
 import VpsDedicatedServer from './pages/VpsDedicatedServer/VpsDedicatedServer';
 import VpsWeb from './pages/VpsWeb/VpsWeb';
+import ScrollToTop from './ShareComponents/ScrollToTop/ScrollToTop';
+
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <ScrollToTop />
+
         <Routes>
+
           <Route index element={<Home />} />
           <Route path='/web-hosting' element={<WebHosting />} />
           <Route path='/vps-game' element={<VpsGame />} />

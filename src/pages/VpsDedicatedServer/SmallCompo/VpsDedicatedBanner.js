@@ -12,7 +12,7 @@ const VpsDedicatedBanner = ({ vps, dedicated, web }) => {
     return (
         <div>
             <div className='container'>
-                <div className='mt-[118px]'>
+                <div className='mt-[164px]'>
                     <div className='flex flex-initial text-center flex-col md:flex-row flex-wrap	 gap-[8px]'>
                         <Link to='/vps' className='py-[8px] px-[36px] btn rounded-[50px] text-xs font-medium border border-[#D5DCE4]'>VPS</Link>
                         <Link to='/vps-dedicated-server' className='py-[8px] px-[36px] bg-main-blue text-white rounded-[50px] text-xs font-medium'>Dedicated servers</Link>

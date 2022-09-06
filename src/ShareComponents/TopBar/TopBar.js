@@ -81,11 +81,11 @@ const TopBar = ({ isDark }) => {
                 </div>
                 <div className=" hidden grow lg:block">{navList}</div>
                 <div className='hidden lg:block'>
-                    <NavLink className={`inline-block mr-[32px]  ${dark ? 'text-black' : 'text-white'} text-ls`} to='/login'>
+                    <NavLink className={`inline-block mr-[32px]  hover:text-main-blue ${dark ? 'text-black' : 'text-white'} text-ls`} to='/login'>
                         Login
 
                     </NavLink>
-                    <NavLink className='inline-block px-[36px] py-[16px] rounded-[50px] bg-main-blue text-xs text-white' to='/register'>Try for free</NavLink>
+                    <NavLink className='inline-block hover:bg-dark-blue transition-all px-[36px] py-[16px] rounded-[50px] bg-main-blue text-xs text-white' to='/register'>Try for free</NavLink>
                 </div>
                 <IconButton
                     variant="text"
@@ -128,11 +128,11 @@ const TopBar = ({ isDark }) => {
             <MobileNav open={openNav} className='  max-h-90vh'>
                 {navList}
                 <div className='flex justify-center items-center p-4'>
-                    <NavLink className={`inline-block mr-[32px] text-black  ${dark || isDark ? 'text-black' : 'text-white'} text-ls`} to='/login'>
+                    <NavLink className={`inline-block mr-[32px] hover:text-main-blue text-black  ${dark || isDark ? 'text-black' : 'text-white'} text-ls`} to='/login'>
                         Login
 
                     </NavLink>
-                    <NavLink className='inline-block px-[36px] py-[16px] rounded-[50px] bg-main-blue text-xs text-white' to='/register'>Try for free</NavLink>
+                    <NavLink className='inline-block px-[36px] py-[16px] hover:bg-dark-blue rounded-[50px] bg-main-blue text-xs text-white' to='/register'>Try for free</NavLink>
                 </div>
             </MobileNav>
         </Navbar>

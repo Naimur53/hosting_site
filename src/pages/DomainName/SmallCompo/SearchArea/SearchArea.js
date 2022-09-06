@@ -6,13 +6,13 @@ const SearchArea = () => {
         <div className=' w-full'>
             <div className='flex  flex-col justify-center md:justify-start md:flex-row   w-full items-center'>
                 <div className='grow relative '>
-                    <input type="text" className='block w-full border py-118 px-130' defaultValue="Domain Name" placeholder='Domain Name' />
+                    <input type="text" className='block w-full border py-118 px-130' placeholder='Domain Name' />
                     <div className='pointer-events-none absolute inset-0 flex justify-end items-center  '>
                         <div className='custom-select-width pointer-events-auto'>
                             <Select offset={6} color="white" size="sm" variant="standard" className='flex justify-center items-center border-0 select-wrap outline-0'
                                 defaultinputvalue="string"
                                 menuProps={{ className: '!px-1 ' }}
-                                selected={(pre) => pre ? pre : `info`}
+                                selected={(pre) => pre ? pre : `.info`}
                             >
                                 <Option  >.info</Option>
                                 <Option>.com</Option>

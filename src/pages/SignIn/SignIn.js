@@ -12,7 +12,7 @@ const SignIn = () => {
                         <div className=' '>
                             <div className='mt-[50px]'>
                                 <NavLink className='inline-block' to='/'>
-                                    <img src="/icons/Logo.png" alt=" logo" />
+                                    <img src="/icons/signinlogo.png" alt=" logo" />
                                 </NavLink>
                             </div>
                             <div className='mt-[173px]'>
@@ -58,11 +58,11 @@ const SignIn = () => {
                         <div className=' flex justify-between mb-[17px]'>
                             <div className=' flex items-center justify-center '>
                                 <input className='w-5 h-5 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 ' type="checkbox" id="remember" />
-                                <label htmlFor="remember" className='text-label ml-1 xs:ml-114  text-xs'>Remember me</label>
+                                <label htmlFor="remember" className=' text-[#778CA2] ml-1 xs:ml-114  text-xs'>Remember me</label>
                             </div>
-                            <a href="#" className='text-seen-blue text-xs' > Recover password</a>
+                            <a href="#" className='text-seen-blue font-medium text-xs' > Recover password</a>
                         </div>
-                        <input type="submit" value='S’enregistrer' className='submit' />
+                        <input type="submit" value='sign in' className='submit' />
                         <a href='#' className='mt-[36px] block text-endText text-center text-xs'>Sign up with social profiles</a>
                         <div>
                             <div className='flex mt-115 justify-center items-center'>
@@ -76,7 +76,7 @@ const SignIn = () => {
                                     <img src="/icons/Twitter.png" alt="" />
                                 </a>
                             </div>
-                            <p className='mt-[53px] mb-10 md:mb-0 text-endText text-center text-xs'>Don’t have an account? <span className='text-seen-blue'>
+                            <p className='mt-[53px] mb-10 md:mb-0 text-endText text-center text-xs'>Don’t have an account? <span className='text-seen-blue font-semibold'>
                                 <Link to='/register'>Sign up here</Link>
                             </span></p>
                         </div>
